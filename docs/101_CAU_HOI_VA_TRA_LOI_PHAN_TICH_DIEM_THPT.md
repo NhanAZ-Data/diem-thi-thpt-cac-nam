@@ -671,13 +671,13 @@ Bộ câu hỏi này được xây dựng lại từ file `cau_hoi_phan_tich_die
 
 **Bằng chứng/cách tính:** Dựa trên data/analysis/legacy_2013_2014_features.csv; không dùng cho THPT 2016-2026 vì thiếu tên.
 
-### 81. Top 5 tên chính có tỷ lệ vào nhóm điểm cao tốt nhất là gì?
+### 81. Top 5 tên chính xuất hiện nhiều nhất trong nhóm thủ khoa/sát thủ khoa là gì?
 
 **Trạng thái:** Trả lời được
 
-**Trả lời:** Top 5 theo tỷ lệ lọt nhóm top 5% legacy là: Bách, Đan, Kiên, Minh, Anh.
+**Trả lời:** Với ngưỡng >=29/30 điểm, top theo số lượng là: Anh (14), Thảo (7), Huy (6), Linh (5), Hương (5). Nếu xếp theo tỷ lệ trong từng tên, top là: Nhã (0,132%), Danh (0,106%), Kỳ (0,080%), Lượng (0,079%), Viên (0,075%).
 
-**Bằng chứng/cách tính:** Chỉ tính tên có ít nhất 1.000 bản ghi để tránh nhiễu mẫu nhỏ.
+**Bằng chứng/cách tính:** Chỉ tính tên có ít nhất 1.000 bản ghi; ngưỡng >=29/30 có 245 thí sinh trong legacy sau khi lọc điểm hợp lệ.
 
 ### 82. Bạn tên Anh có giỏi Ngoại ngữ hơn không?
 

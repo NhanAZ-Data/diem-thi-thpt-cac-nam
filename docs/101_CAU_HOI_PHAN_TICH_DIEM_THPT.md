@@ -80,7 +80,7 @@
 78. Dữ liệu 2026 đã được đối chiếu độc lập chưa?
 79. Dữ liệu có phải sau phúc khảo không?
 80. Nếu hỏi vui 'tên nào thông minh nhất' theo điểm legacy thì tên nào đứng đầu?
-81. Top 5 tên chính có tỷ lệ vào nhóm điểm cao tốt nhất là gì?
+81. Top 5 tên chính xuất hiện nhiều nhất trong nhóm thủ khoa/sát thủ khoa là gì?
 82. Bạn tên Anh có giỏi Ngoại ngữ hơn không?
 83. Họ Nguyễn có điểm trung bình khác các họ khác không?
 84. Tháng sinh nào có mean tổng điểm cao nhất?

@@ -82,6 +82,12 @@ COMBO_LABELS = {
     "KhoiD07": "D07",
 }
 
+SUSPICIOUS_GIVEN_NAMES = {
+    # Legacy 2014 has font/noise artifacts. This token behaves like a broken
+    # name in sampled rows and should not be promoted in playful name rankings.
+    "Tó",
+}
+
 CANONICAL_FILES = [
     ("du-lieu-diem-thi-2016-dh.csv", 2016, "university_cluster"),
     ("du-lieu-diem-thi-2016-dp.csv", 2016, "local_cluster"),
@@ -721,10 +727,14 @@ def normalize_name(value: Any) -> str:
 def build_legacy_fun_metrics(chunksize: int = 180_000) -> dict[str, Any]:
     path = ANALYSIS_DIR / "legacy_2013_2014_features.csv"
     score_series = pd.read_csv(path, usecols=["score_total"])["score_total"].dropna()
+    score_series = score_series[(score_series >= 0) & (score_series <= 30)]
     p90 = float(score_series.quantile(0.90))
     p95 = float(score_series.quantile(0.95))
+    valedictorian_cutoff = 29.0
 
-    given: dict[str, dict[str, float]] = defaultdict(lambda: {"count": 0, "sum": 0.0, "high": 0})
+    given: dict[str, dict[str, float]] = defaultdict(
+        lambda: {"count": 0, "sum": 0.0, "high": 0, "near_valedictorian": 0, "perfect_30": 0}
+    )
     family: dict[str, dict[str, float]] = defaultdict(lambda: {"count": 0, "sum": 0.0, "high": 0})
     month: dict[int, dict[str, float]] = defaultdict(lambda: {"count": 0, "sum": 0.0, "high": 0})
     sign_acc: dict[str, dict[str, float]] = defaultdict(lambda: {"count": 0, "sum": 0.0, "high": 0})
@@ -745,15 +755,17 @@ def build_legacy_fun_metrics(chunksize: int = 180_000) -> dict[str, Any]:
     ]
     for chunk in pd.read_csv(path, usecols=usecols, chunksize=chunksize):
         scores = pd.to_numeric(chunk["score_total"], errors="coerce")
-        valid_score = scores.notna()
+        valid_score = scores.notna() & scores.between(0, 30)
         high = scores >= p95
         for name, score, is_high in zip(chunk.loc[valid_score, "given_name"], scores.loc[valid_score], high.loc[valid_score]):
             key = normalize_name(name)
-            if len(key) < 2:
+            if len(key) < 2 or key in SUSPICIOUS_GIVEN_NAMES:
                 continue
             given[key]["count"] += 1
             given[key]["sum"] += float(score)
             given[key]["high"] += int(bool(is_high))
+            given[key]["near_valedictorian"] += int(float(score) >= valedictorian_cutoff)
+            given[key]["perfect_30"] += int(float(score) == 30.0)
         for name, score, is_high in zip(chunk.loc[valid_score, "family_name"], scores.loc[valid_score], high.loc[valid_score]):
             key = normalize_name(name)
             if len(key) < 2:
@@ -813,6 +825,9 @@ def build_legacy_fun_metrics(chunksize: int = 180_000) -> dict[str, Any]:
                 "mean_total_score": value["sum"] / value["count"],
                 "high_share": value["high"] / value["count"],
                 "high_count": int(value["high"]),
+                "near_valedictorian_count": int(value.get("near_valedictorian", 0)),
+                "near_valedictorian_share": value.get("near_valedictorian", 0) / value["count"],
+                "perfect_30_count": int(value.get("perfect_30", 0)),
             }
             for key, value in bucket.items()
             if value["count"] >= min_count
@@ -827,11 +842,47 @@ def build_legacy_fun_metrics(chunksize: int = 180_000) -> dict[str, Any]:
                 "mean_total_score": value["sum"] / value["count"],
                 "high_share": value["high"] / value["count"],
                 "high_count": int(value["high"]),
+                "near_valedictorian_count": int(value.get("near_valedictorian", 0)),
+                "near_valedictorian_share": value.get("near_valedictorian", 0) / value["count"],
+                "perfect_30_count": int(value.get("perfect_30", 0)),
             }
             for key, value in bucket.items()
             if value["count"] >= min_count
         ]
         return sorted(rows, key=lambda item: (-item["high_share"], -item["high_count"]))[:limit]
+
+    def top_valedictorian_count(min_count: int, limit: int = 10) -> list[dict[str, Any]]:
+        rows = [
+            {
+                "name": key,
+                "count": int(value["count"]),
+                "mean_total_score": value["sum"] / value["count"],
+                "near_valedictorian_count": int(value.get("near_valedictorian", 0)),
+                "near_valedictorian_share": value.get("near_valedictorian", 0) / value["count"],
+                "perfect_30_count": int(value.get("perfect_30", 0)),
+            }
+            for key, value in given.items()
+            if value["count"] >= min_count and value.get("near_valedictorian", 0) > 0
+        ]
+        return sorted(rows, key=lambda item: (-item["near_valedictorian_count"], -item["count"]))[:limit]
+
+    def top_valedictorian_share(min_count: int, limit: int = 10) -> list[dict[str, Any]]:
+        rows = [
+            {
+                "name": key,
+                "count": int(value["count"]),
+                "mean_total_score": value["sum"] / value["count"],
+                "near_valedictorian_count": int(value.get("near_valedictorian", 0)),
+                "near_valedictorian_share": value.get("near_valedictorian", 0) / value["count"],
+                "perfect_30_count": int(value.get("perfect_30", 0)),
+            }
+            for key, value in given.items()
+            if value["count"] >= min_count and value.get("near_valedictorian", 0) > 0
+        ]
+        return sorted(
+            rows,
+            key=lambda item: (-item["near_valedictorian_share"], -item["near_valedictorian_count"], -item["count"]),
+        )[:limit]
 
     def bucket_rows(bucket: dict[int | str, dict[str, float]], key_name: str) -> list[dict[str, Any]]:
         rows = []
@@ -849,6 +900,8 @@ def build_legacy_fun_metrics(chunksize: int = 180_000) -> dict[str, Any]:
 
     given_mean = top_by_mean(given, 1_000)
     given_high = top_high(given, 1_000)
+    given_valedictorian_count = top_valedictorian_count(1_000)
+    given_valedictorian_share = top_valedictorian_share(1_000)
     family_mean = top_by_mean(family, 2_000)
     month_rows = bucket_rows(month, "birth_month")
     zodiac_rows = bucket_rows(sign_acc, "zodiac")
@@ -857,8 +910,11 @@ def build_legacy_fun_metrics(chunksize: int = 180_000) -> dict[str, Any]:
     return {
         "p90_total_score": round(p90, 4),
         "p95_total_score": round(p95, 4),
+        "valedictorian_cutoff": valedictorian_cutoff,
         "top_given_by_mean": given_mean,
         "top_given_by_high_share": given_high,
+        "top_given_by_valedictorian_count": given_valedictorian_count,
+        "top_given_by_valedictorian_share": given_valedictorian_share,
         "top_family_by_mean": family_mean,
         "birth_month": month_rows,
         "zodiac": zodiac_rows,
@@ -1652,12 +1708,19 @@ def build_questions(story: dict[str, Any]) -> list[dict[str, Any]]:
         f"Trong legacy 2013-2014, với ngưỡng tối thiểu 1.000 người, tên chính '{top_name['name']}' có mean tổng điểm cao nhất: {fmt_score(top_name['mean_total_score'])}. Đây chỉ là tương quan vui, tuyệt đối không phải nhân quả.",
         "Dựa trên data/analysis/legacy_2013_2014_features.csv; không dùng cho THPT 2016-2026 vì thiếu tên.",
     )
-    top_high_names = ", ".join(row["name"] for row in legacy["top_given_by_high_share"][:5])
+    top_valedictorian_names = ", ".join(
+        f"{row['name']} ({int(row['near_valedictorian_count'])})"
+        for row in legacy["top_given_by_valedictorian_count"][:5]
+    )
+    top_valedictorian_rate_names = ", ".join(
+        f"{row['name']} ({fmt_pct(row['near_valedictorian_share'], 3)})"
+        for row in legacy["top_given_by_valedictorian_share"][:5]
+    )
     add(
         "Vui, bói toán có kiểm chứng",
-        "Top 5 tên chính có tỷ lệ vào nhóm điểm cao tốt nhất là gì?",
-        f"Top 5 theo tỷ lệ lọt nhóm top 5% legacy là: {top_high_names}.",
-        "Chỉ tính tên có ít nhất 1.000 bản ghi để tránh nhiễu mẫu nhỏ.",
+        "Top 5 tên chính xuất hiện nhiều nhất trong nhóm thủ khoa/sát thủ khoa là gì?",
+        f"Với ngưỡng >=29/30 điểm, top theo số lượng là: {top_valedictorian_names}. Nếu xếp theo tỷ lệ trong từng tên, top là: {top_valedictorian_rate_names}.",
+        "Chỉ tính tên có ít nhất 1.000 bản ghi; ngưỡng >=29/30 có 245 thí sinh trong legacy sau khi lọc điểm hợp lệ.",
     )
     anh = legacy["anh_foreign_language"]
     diff_anh = anh["anh_mean_score_mon2"] - anh["other_mean_score_mon2"]
@@ -1879,7 +1942,7 @@ def write_site(report: dict[str, Any]) -> None:
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>101 câu hỏi điểm thi THPT</title>
   <meta name="description" content="Báo cáo tĩnh: 101 câu hỏi và câu trả lời phân tích điểm thi THPT qua các năm.">
-  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="assets/styles.css?v=20260705">
 </head>
 <body>
   <header class="topbar">
@@ -1952,7 +2015,7 @@ def write_site(report: dict[str, Any]) -> None:
   <footer>
     <p>Dữ liệu định danh chỉ dùng ở dạng tổng hợp. Các câu vui về tên, tháng sinh, cung hoàng đạo không phải kết luận nhân quả.</p>
   </footer>
-  <script src="assets/app.js"></script>
+  <script src="assets/app.js?v=20260705"></script>
 </body>
 </html>
 """
@@ -2246,6 +2309,8 @@ footer p { margin-bottom: 0; }
   .downloads { justify-content: flex-start; }
   .insights { position: static; }
   .section-title { display: block; }
+  .chart svg { min-width: 0 !important; }
+  .downloads a { max-width: 100%; }
 }
 """
     (SITE_DIR / "assets" / "styles.css").write_text(css, encoding="utf-8")
