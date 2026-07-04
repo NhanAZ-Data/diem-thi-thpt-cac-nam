@@ -1,0 +1,16 @@
+year,left,left_label,right,right_label,n,pearson
+2026,Toan,Toán,VatLy,Vật lí,385903,0.7318
+2026,Toan,Toán,HoaHoc,Hóa học,250784,0.7109
+2026,Toan,Toán,SinhHoc,Sinh học,68906,0.7563
+2026,VatLy,Vật lí,HoaHoc,Hóa học,175249,0.7377
+2026,NguVan,Ngữ văn,LichSu,Lịch sử,564666,0.5293
+2026,NguVan,Ngữ văn,DiaLy,Địa lí,443639,0.5485
+2026,LichSu,Lịch sử,DiaLy,Địa lí,277309,0.7144
+2026,NgoaiNgu,Ngoại ngữ,Toan,Toán,342536,0.4755
+2026,NgoaiNgu,Ngoại ngữ,VatLy,Vật lí,144311,0.527
+2026,NgoaiNgu,Ngoại ngữ,HoaHoc,Hóa học,19300,0.5087
+2026,NgoaiNgu,Ngoại ngữ,SinhHoc,Sinh học,3423,0.5007
+2026,NgoaiNgu,Ngoại ngữ,NguVan,Ngữ văn,341709,0.2056
+2026,NgoaiNgu,Ngoại ngữ,LichSu,Lịch sử,89155,0.343
+2026,NgoaiNgu,Ngoại ngữ,DiaLy,Địa lí,46114,0.2772
+2026,NgoaiNgu,Ngoại ngữ,KinhTePhapLuat,Kinh tế và pháp luật,34251,0.3469

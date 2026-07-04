@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import csv
+import json
 from pathlib import Path
 
 
@@ -73,10 +74,27 @@ def validate_crosscheck_2026() -> None:
     print("OK 2026 crosscheck: SBD and mapped score fields match")
 
 
+def validate_static_report() -> None:
+    path = Path("site/data/answers.json")
+    assert_exists(path)
+    data = json.loads(path.read_text(encoding="utf-8"))
+    questions = data.get("questions", [])
+    if len(questions) != 101:
+        raise AssertionError(f"Expected 101 static-report questions, got {len(questions)}")
+    report = Path("docs/101_CAU_HOI_VA_TRA_LOI_PHAN_TICH_DIEM_THPT.md")
+    question_bank = Path("docs/101_CAU_HOI_PHAN_TICH_DIEM_THPT.md")
+    assert_exists(report)
+    assert_exists(question_bank)
+    if report.read_text(encoding="utf-8").count("\n### ") != 101:
+        raise AssertionError("Markdown report does not contain 101 question headings")
+    print("OK static report: 101 questions and site data are present")
+
+
 def main() -> None:
     validate_summary()
     validate_legacy()
     validate_crosscheck_2026()
+    validate_static_report()
     print("All validation checks passed.")
 
 

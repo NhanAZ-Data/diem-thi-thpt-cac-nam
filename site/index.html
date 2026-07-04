@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>101 câu hỏi điểm thi THPT</title>
+  <meta name="description" content="Báo cáo tĩnh: 101 câu hỏi và câu trả lời phân tích điểm thi THPT qua các năm.">
+  <link rel="stylesheet" href="assets/styles.css?v=20260705">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">Phổ điểm THPT 2016-2026 + legacy 2013-2014</p>
+      <h1>101 câu hỏi phân tích điểm thi THPT</h1>
+      <p class="lede">Một báo cáo tối giản: có câu nghiêm túc, câu hữu ích, câu vui kiểu bói toán, nhưng câu nào cũng ghi rõ dữ liệu có chứng minh được đến đâu.</p>
+    </div>
+    <nav class="downloads" aria-label="Tải xuống">
+      <a href="downloads/101-cau-hoi-va-tra-loi-phan-tich-diem-thpt.md" download>Tải Markdown đầy đủ</a>
+      <a href="downloads/101-cau-hoi-phan-tich-diem-thpt.md" download>Chỉ câu hỏi</a>
+      <a href="data/answers.json">JSON</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="kpis" id="kpis" aria-label="Tóm tắt số liệu"></section>
+
+    <section class="chart-grid" aria-label="Biểu đồ chính">
+      <article class="panel">
+        <div class="panel-head">
+          <h2>Mean theo năm</h2>
+          <p>Trung bình có trọng số trên lượt điểm môn.</p>
+        </div>
+        <div id="annualChart" class="chart"></div>
+      </article>
+      <article class="panel">
+        <div class="panel-head">
+          <h2>Môn năm gần nhất</h2>
+          <p>Mean và tỷ lệ 8+ theo môn.</p>
+        </div>
+        <div id="subjectChart" class="chart"></div>
+      </article>
+    </section>
+
+    <section class="toolbar" aria-label="Bộ lọc câu hỏi">
+      <label>
+        <span>Tìm kiếm</span>
+        <input id="searchBox" type="search" placeholder="Ví dụ: Ngoại ngữ, tên, Hà Nội, 27+">
+      </label>
+      <label>
+        <span>Nhóm</span>
+        <select id="groupFilter">
+          <option value="">Tất cả nhóm</option>
+        </select>
+      </label>
+      <label>
+        <span>Trạng thái</span>
+        <select id="statusFilter">
+          <option value="">Tất cả trạng thái</option>
+        </select>
+      </label>
+    </section>
+
+    <section class="content-layout">
+      <aside class="insights">
+        <h2>Điểm nhấn</h2>
+        <ul id="highlights"></ul>
+      </aside>
+      <section>
+        <div class="section-title">
+          <h2>Toàn bộ 101 câu</h2>
+          <p id="resultCount"></p>
+        </div>
+        <div id="questionList" class="question-list"></div>
+      </section>
+    </section>
+  </main>
+
+  <footer>
+    <p>Dữ liệu định danh chỉ dùng ở dạng tổng hợp. Các câu vui về tên, tháng sinh, cung hoàng đạo không phải kết luận nhân quả.</p>
+  </footer>
+  <script src="assets/app.js?v=20260705"></script>
+</body>
+</html>

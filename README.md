@@ -10,6 +10,14 @@ Repo này được chuẩn hóa để:
 - ghi rõ phần nào có/không có trường định danh như họ tên, ngày sinh;
 - hỗ trợ kiểm chứng lại bằng script.
 
+## Web tĩnh
+
+Web báo cáo 101 câu hỏi được dựng trong thư mục `site/` và deploy bằng GitHub Pages:
+
+- Trang web: https://nhanaz.github.io/pho-diem-cac-nam/
+- Bản Markdown đầy đủ: [101 câu hỏi và câu trả lời](docs/101_CAU_HOI_VA_TRA_LOI_PHAN_TICH_DIEM_THPT.md)
+- Bản chỉ câu hỏi: [101 câu hỏi phân tích](docs/101_CAU_HOI_PHAN_TICH_DIEM_THPT.md)
+
 ## Trạng thái dữ liệu
 
 - Legacy tuyển sinh ĐH-CĐ 2013-2014: **2,412,155** dòng.
@@ -61,6 +69,7 @@ python -m pip install -r requirements.txt
 ```powershell
 python scripts\build_subject_summaries.py
 python scripts\build_legacy_features.py
+python scripts\build_qa_site_data.py
 python scripts\validate_repo.py
 ```
 
@@ -71,12 +80,15 @@ Kết quả chính:
 - `data/analysis/legacy_2013_2014_features.csv`: biến phân tích từ legacy 2013-2014, gồm tháng sinh, họ, tên chính, mã trường/khối và điểm.
 - `data/analysis/legacy_name_score_stats.csv`: thống kê điểm theo họ/tên chính, chỉ giữ nhóm có ít nhất 30 bản ghi.
 - `data/analysis/legacy_birth_month_score_stats.csv`: thống kê điểm theo tháng sinh.
+- `data/analysis/qa_report_data.json`: dữ liệu đã đóng gói cho báo cáo 101 câu.
+- `site/`: web tĩnh để deploy GitHub Pages.
 
 ## Tài liệu
 
 - [Nguồn dữ liệu](docs/NGUON_DU_LIEU.md)
 - [Từ điển dữ liệu](docs/TU_DIEN_DU_LIEU.md)
 - [Quyền riêng tư và giới hạn phân tích](docs/QUYEN_RIENG_TU.md)
+- [101 câu hỏi và câu trả lời phân tích điểm THPT](docs/101_CAU_HOI_VA_TRA_LOI_PHAN_TICH_DIEM_THPT.md)
 - [Gap report](metadata/gap_report.md)
 
 ## Lưu ý quan trọng

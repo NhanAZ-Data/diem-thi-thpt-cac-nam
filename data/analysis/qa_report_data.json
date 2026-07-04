@@ -1,0 +1,1778 @@
+{
+  "generated_at": "2026-07-04T21:10:04.230161+00:00",
+  "source_scope": {
+    "thpt_years": "2016-2026",
+    "legacy_years": "2013-2014",
+    "thpt_rows": 10865001,
+    "legacy_rows": 2412155
+  },
+  "highlights": [
+    "2016 là năm có mặt bằng điểm thấp nhất trong chuỗi; 2024 là năm cao nhất theo mean có trọng số.",
+    "GDCD năm 2021 là kỷ lục điểm 10: 18.789 lượt.",
+    "Ninh Bình dẫn đầu mặt bằng điểm 2026; Ninh Bình là cái tên nổi bật nếu bỏ Hà Nội/TP.HCM.",
+    "Tổ hợp B00 có mean cao nhất năm 2026; B00 dẫn tỷ lệ >=27.",
+    "Tên, tháng sinh, cung hoàng đạo và SBD chỉ nên đọc như trò vui có kiểm chứng, không phải nguyên nhân học giỏi."
+  ],
+  "story": {
+    "latest_year": 2026,
+    "hardest": {
+      "year": 2016.0,
+      "weighted_mean": 4.699062244110825,
+      "subject_count": 8.0
+    },
+    "easiest": {
+      "year": 2024.0,
+      "weighted_mean": 6.72715185884403,
+      "subject_count": 9.0
+    },
+    "province_best": {
+      "province_code": "37",
+      "province_name": "Ninh Bình",
+      "region": "Miền Bắc",
+      "mean": 6.320032969236231,
+      "attempts": 191524.0
+    },
+    "province_worst": {
+      "province_code": "14",
+      "province_name": "Sơn La",
+      "region": "Miền Bắc",
+      "mean": 4.978768230365362,
+      "attempts": 55616.0
+    },
+    "best_combo": {
+      "year": 2026,
+      "combo": "KhoiB",
+      "combo_label": "B00",
+      "count": 47200,
+      "mean": 19.691,
+      "p90": 25.25,
+      "p95": 26.5,
+      "share_ge_24": 0.18906779661016948,
+      "share_ge_27": 0.03525423728813559,
+      "share_ge_29": 0.0036016949152542373
+    }
+  },
+  "charts": {
+    "annual": [
+      {
+        "year": 2016,
+        "weighted_mean": 4.699062244110825,
+        "subject_count": 8.0
+      },
+      {
+        "year": 2017,
+        "weighted_mean": 5.39286360584375,
+        "subject_count": 9.0
+      },
+      {
+        "year": 2018,
+        "weighted_mean": 4.949534958790343,
+        "subject_count": 9.0
+      },
+      {
+        "year": 2019,
+        "weighted_mean": 5.389020902584402,
+        "subject_count": 9.0
+      },
+      {
+        "year": 2020,
+        "weighted_mean": 6.257636353221945,
+        "subject_count": 9.0
+      },
+      {
+        "year": 2021,
+        "weighted_mean": 6.425982450573807,
+        "subject_count": 9.0
+      },
+      {
+        "year": 2022,
+        "weighted_mean": 6.3824618617960525,
+        "subject_count": 9.0
+      },
+      {
+        "year": 2023,
+        "weighted_mean": 6.450411768437863,
+        "subject_count": 9.0
+      },
+      {
+        "year": 2024,
+        "weighted_mean": 6.72715185884403,
+        "subject_count": 9.0
+      },
+      {
+        "year": 2025,
+        "weighted_mean": 6.204122633747282,
+        "subject_count": 13.0
+      },
+      {
+        "year": 2026,
+        "weighted_mean": 5.838037929934649,
+        "subject_count": 12.0
+      }
+    ],
+    "latest_subjects": [
+      {
+        "year": 2026,
+        "subject": "CongNgheNongNghiep",
+        "subject_label": "Công nghệ nông nghiệp",
+        "count": 31079,
+        "mean": 6.9614,
+        "std": 1.2654,
+        "min": 1.2,
+        "p05": 4.7,
+        "p25": 6.25,
+        "median": 7.0,
+        "p75": 7.75,
+        "p95": 8.75,
+        "max": 10.0,
+        "p90": 8.5,
+        "share_ge_8": 0.24302583738215516,
+        "share_ge_9": 0.04684835419415039,
+        "share_ge_10": 0.0014157469674056437,
+        "count_10": 44,
+        "share_lt_5": 0.067183628816886,
+        "share_le_1": 0.0,
+        "skew": -0.5099,
+        "excess_kurtosis": 0.2841,
+        "normality_distance": 0.7940378226976963
+      },
+      {
+        "year": 2026,
+        "subject": "CongNgheCongNghiep",
+        "subject_label": "Công nghệ công nghiệp",
+        "count": 7209,
+        "mean": 6.5015,
+        "std": 1.4556,
+        "min": 2.35,
+        "p05": 4.45,
+        "p25": 5.35,
+        "median": 6.25,
+        "p75": 7.5,
+        "p95": 9.25,
+        "max": 10.0,
+        "p90": 8.75,
+        "share_ge_8": 0.19323068386738798,
+        "share_ge_9": 0.07698709945900957,
+        "share_ge_10": 0.0055486197808295185,
+        "count_10": 40,
+        "share_lt_5": 0.13691219309196836,
+        "share_le_1": 0.0,
+        "skew": 0.3499,
+        "excess_kurtosis": -0.571,
+        "normality_distance": 0.9208597732444042
+      },
+      {
+        "year": 2026,
+        "subject": "NguVan",
+        "subject_label": "Ngữ văn",
+        "count": 1197227,
+        "mean": 6.4972,
+        "std": 1.3244,
+        "min": 0.0,
+        "p05": 4.0,
+        "p25": 5.75,
+        "median": 6.75,
+        "p75": 7.5,
+        "p95": 8.25,
+        "max": 9.75,
+        "p90": 8.0,
+        "share_ge_8": 0.13563760255991553,
+        "share_ge_9": 0.005906983387444486,
+        "share_ge_10": 0.0,
+        "count_10": 0,
+        "share_lt_5": 0.11082693591106782,
+        "share_le_1": 0.00013113636762284846,
+        "skew": -0.7549,
+        "excess_kurtosis": 0.5688,
+        "normality_distance": 1.3237061842872362
+      },
+      {
+        "year": 2026,
+        "subject": "HoaHoc",
+        "subject_label": "Hóa học",
+        "count": 250803,
+        "mean": 6.2844,
+        "std": 1.6387,
+        "min": 0.45,
+        "p05": 3.35,
+        "p25": 5.1,
+        "median": 6.5,
+        "p75": 7.5,
+        "p95": 8.75,
+        "max": 10.0,
+        "p90": 8.25,
+        "share_ge_8": 0.17851461106924557,
+        "share_ge_9": 0.03762315442797734,
+        "share_ge_10": 0.0016427235718870987,
+        "count_10": 412,
+        "share_lt_5": 0.219809970375155,
+        "share_le_1": 4.784631762777957e-05,
+        "skew": -0.2816,
+        "excess_kurtosis": -0.5605,
+        "normality_distance": 0.8420934723271918
+      },
+      {
+        "year": 2026,
+        "subject": "LichSu",
+        "subject_label": "Lịch sử",
+        "count": 565056,
+        "mean": 6.1905,
+        "std": 1.7011,
+        "min": 0.0,
+        "p05": 3.5,
+        "p25": 4.85,
+        "median": 6.1,
+        "p75": 7.5,
+        "p95": 9.0,
+        "max": 10.0,
+        "p90": 8.5,
+        "share_ge_8": 0.18682927001925473,
+        "share_ge_9": 0.06375297315664288,
+        "share_ge_10": 0.004362399478989693,
+        "count_10": 2465,
+        "share_lt_5": 0.25773197700758865,
+        "share_le_1": 1.2388152678672557e-05,
+        "skew": 0.0508,
+        "excess_kurtosis": -0.73,
+        "normality_distance": 0.7808090059117484
+      },
+      {
+        "year": 2026,
+        "subject": "TinHoc",
+        "subject_label": "Tin học",
+        "count": 18264,
+        "mean": 6.0728,
+        "std": 1.5324,
+        "min": 1.6,
+        "p05": 3.6,
+        "p25": 4.95,
+        "median": 6.0,
+        "p75": 7.25,
+        "p95": 8.75,
+        "max": 10.0,
+        "p90": 8.25,
+        "share_ge_8": 0.13146079719667106,
+        "share_ge_9": 0.037505475251861584,
+        "share_ge_10": 0.0013688129653964083,
+        "count_10": 25,
+        "share_lt_5": 0.2504927726675427,
+        "share_le_1": 0.0,
+        "skew": 0.0894,
+        "excess_kurtosis": -0.5407,
+        "normality_distance": 0.6300917271243728
+      },
+      {
+        "year": 2026,
+        "subject": "SinhHoc",
+        "subject_label": "Sinh học",
+        "count": 68923,
+        "mean": 5.837,
+        "std": 1.6227,
+        "min": 1.2,
+        "p05": 3.35,
+        "p25": 4.6,
+        "median": 5.75,
+        "p75": 7.0,
+        "p95": 8.75,
+        "max": 10.0,
+        "p90": 8.25,
+        "share_ge_8": 0.12634389100880694,
+        "share_ge_9": 0.0408136616223902,
+        "share_ge_10": 0.0018716538746136994,
+        "count_10": 129,
+        "share_lt_5": 0.3142782525426926,
+        "share_le_1": 0.0,
+        "skew": 0.2479,
+        "excess_kurtosis": -0.5135,
+        "normality_distance": 0.7614527267300509
+      },
+      {
+        "year": 2026,
+        "subject": "Toan",
+        "subject_label": "Toán",
+        "count": 1192437,
+        "mean": 5.6516,
+        "std": 1.8933,
+        "min": 0.45,
+        "p05": 2.7,
+        "p25": 4.25,
+        "median": 5.5,
+        "p75": 7.25,
+        "p95": 8.75,
+        "max": 10.0,
+        "p90": 8.25,
+        "share_ge_8": 0.1563302715363579,
+        "share_ge_9": 0.04245088000456208,
+        "share_ge_10": 0.0035289076068588947,
+        "count_10": 4208,
+        "share_lt_5": 0.379758427489251,
+        "share_le_1": 0.00021217053815002386,
+        "skew": 0.0717,
+        "excess_kurtosis": -0.8842,
+        "normality_distance": 0.9558777323488539
+      },
+      {
+        "year": 2026,
+        "subject": "VatLy",
+        "subject_label": "Vật lí",
+        "count": 385930,
+        "mean": 5.5587,
+        "std": 1.7462,
+        "min": 0.0,
+        "p05": 2.85,
+        "p25": 4.1,
+        "median": 5.5,
+        "p75": 7.0,
+        "p95": 8.5,
+        "max": 10.0,
+        "p90": 8.0,
+        "share_ge_8": 0.1083538465524836,
+        "share_ge_9": 0.02022905708289068,
+        "share_ge_10": 0.0004897261161350504,
+        "count_10": 189,
+        "share_lt_5": 0.39369056564661986,
+        "share_le_1": 2.591143471614023e-05,
+        "skew": 0.1067,
+        "excess_kurtosis": -0.8757,
+        "normality_distance": 0.9824176716857521
+      },
+      {
+        "year": 2026,
+        "subject": "DiaLy",
+        "subject_label": "Địa lí",
+        "count": 443885,
+        "mean": 5.1009,
+        "std": 1.5795,
+        "min": 0.0,
+        "p05": 2.6,
+        "p25": 3.85,
+        "median": 5.0,
+        "p75": 6.25,
+        "p95": 7.75,
+        "max": 10.0,
+        "p90": 7.25,
+        "share_ge_8": 0.04135305315565969,
+        "share_ge_9": 0.005260371492616331,
+        "share_ge_10": 0.00012615880239251159,
+        "count_10": 56,
+        "share_lt_5": 0.47007445622176913,
+        "share_le_1": 0.00022978924721493179,
+        "skew": 0.134,
+        "excess_kurtosis": -0.5842,
+        "normality_distance": 0.7182480124697783
+      },
+      {
+        "year": 2026,
+        "subject": "NgoaiNgu",
+        "subject_label": "Ngoại ngữ",
+        "count": 344227,
+        "mean": 5.0926,
+        "std": 1.6954,
+        "min": 0.5,
+        "p05": 2.75,
+        "p25": 3.75,
+        "median": 5.0,
+        "p75": 6.25,
+        "p95": 8.25,
+        "max": 10.0,
+        "p90": 7.5,
+        "share_ge_8": 0.07378270734137647,
+        "share_ge_9": 0.022395105555345747,
+        "share_ge_10": 0.0010487265670618517,
+        "count_10": 361,
+        "share_lt_5": 0.4995163075528648,
+        "share_le_1": 0.00018011370403832355,
+        "skew": 0.4742,
+        "excess_kurtosis": -0.3515,
+        "normality_distance": 0.8256086821420243
+      },
+      {
+        "year": 2026,
+        "subject": "KinhTePhapLuat",
+        "subject_label": "Kinh tế và pháp luật",
+        "count": 282519,
+        "mean": 5.023,
+        "std": 1.3096,
+        "min": 0.75,
+        "p05": 2.85,
+        "p25": 4.1,
+        "median": 5.0,
+        "p75": 6.0,
+        "p95": 7.25,
+        "max": 10.0,
+        "p90": 6.75,
+        "share_ge_8": 0.01249473486738945,
+        "share_ge_9": 0.0007964066133605174,
+        "share_ge_10": 7.079169896537932e-06,
+        "count_10": 2,
+        "share_lt_5": 0.47882089346203266,
+        "share_le_1": 5.309377422403449e-05,
+        "skew": 0.0574,
+        "excess_kurtosis": -0.3882,
+        "normality_distance": 0.4455341046097877
+      }
+    ],
+    "latest_combo": [
+      {
+        "year": 2026,
+        "combo": "KhoiB",
+        "combo_label": "B00",
+        "count": 47200,
+        "mean": 19.691,
+        "p90": 25.25,
+        "p95": 26.5,
+        "share_ge_24": 0.18906779661016948,
+        "share_ge_27": 0.03525423728813559,
+        "share_ge_29": 0.0036016949152542373
+      },
+      {
+        "year": 2026,
+        "combo": "KhoiA",
+        "combo_label": "A00",
+        "count": 175241,
+        "mean": 19.4082,
+        "p90": 24.75,
+        "p95": 25.75,
+        "share_ge_24": 0.16150900759525452,
+        "share_ge_27": 0.019892605041057745,
+        "share_ge_29": 0.0011241661483328673
+      },
+      {
+        "year": 2026,
+        "combo": "KhoiC01",
+        "combo_label": "C01",
+        "count": 378056,
+        "mean": 19.2439,
+        "p90": 23.75,
+        "p95": 24.75,
+        "share_ge_24": 0.09344382842753454,
+        "share_ge_27": 0.0023594388132975007,
+        "share_ge_29": 2.6451107772393507e-06
+      },
+      {
+        "year": 2026,
+        "combo": "KhoiD",
+        "combo_label": "D01/D00",
+        "count": 340059,
+        "mean": 19.0186,
+        "p90": 23.25,
+        "p95": 24.25,
+        "share_ge_24": 0.06633260698878723,
+        "share_ge_27": 0.001773221705645197,
+        "share_ge_29": 5.881332357032162e-06
+      },
+      {
+        "year": 2026,
+        "combo": "KhoiD07",
+        "combo_label": "D07",
+        "count": 19295,
+        "mean": 18.7765,
+        "p90": 23.5,
+        "p95": 24.75,
+        "share_ge_24": 0.08515159367711843,
+        "share_ge_27": 0.007048458149779736,
+        "share_ge_29": 0.0002591344908007256
+      },
+      {
+        "year": 2026,
+        "combo": "KhoiA1",
+        "combo_label": "A01",
+        "count": 144299,
+        "mean": 18.4087,
+        "p90": 23.75,
+        "p95": 24.75,
+        "share_ge_24": 0.09103320189329102,
+        "share_ge_27": 0.008316065946402955,
+        "share_ge_29": 0.00022176175857074548
+      },
+      {
+        "year": 2026,
+        "combo": "KhoiC",
+        "combo_label": "C00",
+        "count": 277161,
+        "mean": 17.2322,
+        "p90": 22.75,
+        "p95": 24.0,
+        "share_ge_24": 0.05313157334545625,
+        "share_ge_27": 0.0020890385010878154,
+        "share_ge_29": 0.0
+      },
+      {
+        "year": 2026,
+        "combo": "KhoiA02",
+        "combo_label": "A02",
+        "count": 3944,
+        "mean": 15.0454,
+        "p90": 19.85,
+        "p95": 21.25,
+        "share_ge_24": 0.007860040567951318,
+        "share_ge_27": 0.0,
+        "share_ge_29": 0.0
+      }
+    ],
+    "province_overall_latest": [
+      {
+        "province_code": "37",
+        "province_name": "Ninh Bình",
+        "region": "Miền Bắc",
+        "mean": 6.320032969236231,
+        "attempts": 191524.0
+      },
+      {
+        "province_code": "01",
+        "province_name": "Hà Nội",
+        "region": "Miền Bắc",
+        "mean": 6.176834644654044,
+        "attempts": 499471.0
+      },
+      {
+        "province_code": "31",
+        "province_name": "Hải Phòng",
+        "region": "Miền Bắc",
+        "mean": 6.167277904924895,
+        "attempts": 225548.0
+      },
+      {
+        "province_code": "40",
+        "province_name": "Nghệ An",
+        "region": "Miền Trung",
+        "mean": 6.1657869308212625,
+        "attempts": 165282.0
+      },
+      {
+        "province_code": "42",
+        "province_name": "Hà Tĩnh",
+        "region": "Miền Trung",
+        "mean": 6.14934242188778,
+        "attempts": 73356.0
+      },
+      {
+        "province_code": "25",
+        "province_name": "Phú Thọ",
+        "region": "Miền Bắc",
+        "mean": 6.077554942475254,
+        "attempts": 189136.0
+      },
+      {
+        "province_code": "79",
+        "province_name": "TP. Hồ Chí Minh",
+        "region": "Miền Nam",
+        "mean": 6.040167928223394,
+        "attempts": 552492.0
+      },
+      {
+        "province_code": "46",
+        "province_name": "Huế",
+        "region": "Miền Trung",
+        "mean": 5.970203854863058,
+        "attempts": 55644.0
+      },
+      {
+        "province_code": "33",
+        "province_name": "Hưng Yên",
+        "region": "Miền Bắc",
+        "mean": 5.960344635163106,
+        "attempts": 171515.0
+      },
+      {
+        "province_code": "24",
+        "province_name": "Bắc Ninh",
+        "region": "Miền Bắc",
+        "mean": 5.909127054832002,
+        "attempts": 173603.0
+      },
+      {
+        "province_code": "38",
+        "province_name": "Thanh Hóa",
+        "region": "Miền Trung",
+        "mean": 5.888938457329114,
+        "attempts": 168124.0
+      },
+      {
+        "province_code": "82",
+        "province_name": "Đồng Tháp",
+        "region": "Miền Nam",
+        "mean": 5.81696284768257,
+        "attempts": 147081.0
+      },
+      {
+        "province_code": "44",
+        "province_name": "Quảng Trị",
+        "region": "Miền Trung",
+        "mean": 5.814681230895356,
+        "attempts": 85385.0
+      },
+      {
+        "province_code": "22",
+        "province_name": "Quảng Ninh",
+        "region": "Miền Bắc",
+        "mean": 5.768871850926505,
+        "attempts": 81651.0
+      },
+      {
+        "province_code": "68",
+        "province_name": "Lâm Đồng",
+        "region": "Miền Trung",
+        "mean": 5.73496295679532,
+        "attempts": 162737.0
+      },
+      {
+        "province_code": "96",
+        "province_name": "Cà Mau",
+        "region": "Miền Nam",
+        "mean": 5.7262354172578345,
+        "attempts": 77530.0
+      },
+      {
+        "province_code": "51",
+        "province_name": "Quảng Ngãi",
+        "region": "Miền Trung",
+        "mean": 5.72108520049316,
+        "attempts": 85165.0
+      },
+      {
+        "province_code": "08",
+        "province_name": "Tuyên Quang",
+        "region": "Miền Bắc",
+        "mean": 5.720903336787274,
+        "attempts": 71416.0
+      },
+      {
+        "province_code": "91",
+        "province_name": "An Giang",
+        "region": "Miền Nam",
+        "mean": 5.696908499740745,
+        "attempts": 158146.0
+      },
+      {
+        "province_code": "56",
+        "province_name": "Khánh Hòa",
+        "region": "Miền Trung",
+        "mean": 5.630180120634482,
+        "attempts": 86874.0
+      }
+    ],
+    "correlations": [
+      {
+        "year": 2026,
+        "left": "Toan",
+        "left_label": "Toán",
+        "right": "VatLy",
+        "right_label": "Vật lí",
+        "n": 385903,
+        "pearson": 0.7318
+      },
+      {
+        "year": 2026,
+        "left": "Toan",
+        "left_label": "Toán",
+        "right": "HoaHoc",
+        "right_label": "Hóa học",
+        "n": 250784,
+        "pearson": 0.7109
+      },
+      {
+        "year": 2026,
+        "left": "Toan",
+        "left_label": "Toán",
+        "right": "SinhHoc",
+        "right_label": "Sinh học",
+        "n": 68906,
+        "pearson": 0.7563
+      },
+      {
+        "year": 2026,
+        "left": "VatLy",
+        "left_label": "Vật lí",
+        "right": "HoaHoc",
+        "right_label": "Hóa học",
+        "n": 175249,
+        "pearson": 0.7377
+      },
+      {
+        "year": 2026,
+        "left": "NguVan",
+        "left_label": "Ngữ văn",
+        "right": "LichSu",
+        "right_label": "Lịch sử",
+        "n": 564666,
+        "pearson": 0.5293
+      },
+      {
+        "year": 2026,
+        "left": "NguVan",
+        "left_label": "Ngữ văn",
+        "right": "DiaLy",
+        "right_label": "Địa lí",
+        "n": 443639,
+        "pearson": 0.5485
+      },
+      {
+        "year": 2026,
+        "left": "LichSu",
+        "left_label": "Lịch sử",
+        "right": "DiaLy",
+        "right_label": "Địa lí",
+        "n": 277309,
+        "pearson": 0.7144
+      },
+      {
+        "year": 2026,
+        "left": "NgoaiNgu",
+        "left_label": "Ngoại ngữ",
+        "right": "Toan",
+        "right_label": "Toán",
+        "n": 342536,
+        "pearson": 0.4755
+      },
+      {
+        "year": 2026,
+        "left": "NgoaiNgu",
+        "left_label": "Ngoại ngữ",
+        "right": "VatLy",
+        "right_label": "Vật lí",
+        "n": 144311,
+        "pearson": 0.527
+      },
+      {
+        "year": 2026,
+        "left": "NgoaiNgu",
+        "left_label": "Ngoại ngữ",
+        "right": "HoaHoc",
+        "right_label": "Hóa học",
+        "n": 19300,
+        "pearson": 0.5087
+      },
+      {
+        "year": 2026,
+        "left": "NgoaiNgu",
+        "left_label": "Ngoại ngữ",
+        "right": "SinhHoc",
+        "right_label": "Sinh học",
+        "n": 3423,
+        "pearson": 0.5007
+      },
+      {
+        "year": 2026,
+        "left": "NgoaiNgu",
+        "left_label": "Ngoại ngữ",
+        "right": "NguVan",
+        "right_label": "Ngữ văn",
+        "n": 341709,
+        "pearson": 0.2056
+      },
+      {
+        "year": 2026,
+        "left": "NgoaiNgu",
+        "left_label": "Ngoại ngữ",
+        "right": "LichSu",
+        "right_label": "Lịch sử",
+        "n": 89155,
+        "pearson": 0.343
+      },
+      {
+        "year": 2026,
+        "left": "NgoaiNgu",
+        "left_label": "Ngoại ngữ",
+        "right": "DiaLy",
+        "right_label": "Địa lí",
+        "n": 46114,
+        "pearson": 0.2772
+      },
+      {
+        "year": 2026,
+        "left": "NgoaiNgu",
+        "left_label": "Ngoại ngữ",
+        "right": "KinhTePhapLuat",
+        "right_label": "Kinh tế và pháp luật",
+        "n": 34251,
+        "pearson": 0.3469
+      }
+    ],
+    "birth_month": [
+      {
+        "birth_month": 1,
+        "count": 165471,
+        "mean_total_score": 13.5313,
+        "high_share": 0.056536
+      },
+      {
+        "birth_month": 2,
+        "count": 159156,
+        "mean_total_score": 13.4031,
+        "high_share": 0.053086
+      },
+      {
+        "birth_month": 3,
+        "count": 149069,
+        "mean_total_score": 13.3968,
+        "high_share": 0.053237
+      },
+      {
+        "birth_month": 4,
+        "count": 148027,
+        "mean_total_score": 13.356,
+        "high_share": 0.052247
+      },
+      {
+        "birth_month": 5,
+        "count": 149128,
+        "mean_total_score": 13.3125,
+        "high_share": 0.051687
+      },
+      {
+        "birth_month": 6,
+        "count": 151440,
+        "mean_total_score": 13.2692,
+        "high_share": 0.049723
+      },
+      {
+        "birth_month": 7,
+        "count": 151009,
+        "mean_total_score": 13.3329,
+        "high_share": 0.051527
+      },
+      {
+        "birth_month": 8,
+        "count": 188407,
+        "mean_total_score": 13.3118,
+        "high_share": 0.051214
+      },
+      {
+        "birth_month": 9,
+        "count": 183393,
+        "mean_total_score": 13.3882,
+        "high_share": 0.054157
+      },
+      {
+        "birth_month": 10,
+        "count": 205201,
+        "mean_total_score": 13.3947,
+        "high_share": 0.054639
+      },
+      {
+        "birth_month": 11,
+        "count": 172589,
+        "mean_total_score": 13.5379,
+        "high_share": 0.05607
+      },
+      {
+        "birth_month": 12,
+        "count": 156486,
+        "mean_total_score": 13.4774,
+        "high_share": 0.056893
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": 1,
+      "group": "Xu hướng điểm số",
+      "question": "Năm nào có mặt bằng điểm chung thấp nhất và cao nhất trong chuỗi 2016-2026?",
+      "answer": "Theo trung bình có trọng số trên các lượt điểm môn, năm thấp nhất là 2016 với mean 4,70; năm cao nhất là 2024 với mean 6,73.",
+      "evidence": "Tính từ data/summary/subject_score_distribution.csv và year_subject_stats.csv; cần đọc cùng chú thích đổi cấu trúc 2025-2026.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 2,
+      "group": "Xu hướng điểm số",
+      "question": "Môn nào tăng điểm trung bình mạnh nhất qua toàn bộ quãng có dữ liệu?",
+      "answer": "Ngoại ngữ tăng mạnh nhất: từ 3,23 năm 2016 lên 5,09 năm 2026, chênh 1,87 điểm.",
+      "evidence": "So sánh năm đầu và năm cuối có mặt của từng môn.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 3,
+      "group": "Xu hướng điểm số",
+      "question": "Môn nào giảm điểm trung bình mạnh nhất qua toàn bộ quãng có dữ liệu?",
+      "answer": "Kinh tế và pháp luật giảm mạnh nhất: từ 7,69 năm 2025 xuống 5,02 năm 2026, chênh -2,67 điểm.",
+      "evidence": "So sánh năm đầu và năm cuối có mặt của từng môn.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 4,
+      "group": "Xu hướng điểm số",
+      "question": "Điểm trung bình môn Toán thay đổi thế nào qua các năm?",
+      "answer": "Toán đi từ 4,44 năm 2016 đến 5,65 năm 2026; riêng 2026 mean là 5,65, p90 là 8,25.",
+      "evidence": "Dựa trên thống kê theo môn/năm; không điều chỉnh khác biệt đề thi giữa các năm.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 5,
+      "group": "Xu hướng điểm số",
+      "question": "Điểm trung bình môn Ngữ văn thay đổi thế nào qua các năm?",
+      "answer": "Ngữ văn đi từ 4,92 năm 2016 đến 6,50 năm 2026; riêng 2026 mean là 6,50, p90 là 8,00.",
+      "evidence": "Dựa trên thống kê theo môn/năm; không điều chỉnh khác biệt đề thi giữa các năm.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 6,
+      "group": "Xu hướng điểm số",
+      "question": "Điểm trung bình môn Ngoại ngữ thay đổi thế nào qua các năm?",
+      "answer": "Ngoại ngữ đi từ 3,23 năm 2016 đến 5,09 năm 2026; riêng 2026 mean là 5,09, p90 là 7,50.",
+      "evidence": "Dựa trên thống kê theo môn/năm; không điều chỉnh khác biệt đề thi giữa các năm.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 7,
+      "group": "Xu hướng điểm số",
+      "question": "Điểm trung bình môn Lịch sử thay đổi thế nào qua các năm?",
+      "answer": "Lịch sử đi từ 4,50 năm 2016 đến 6,19 năm 2026; riêng 2026 mean là 6,19, p90 là 8,50.",
+      "evidence": "Dựa trên thống kê theo môn/năm; không điều chỉnh khác biệt đề thi giữa các năm.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 8,
+      "group": "Xu hướng điểm số",
+      "question": "GDCD/Kinh tế và pháp luật có còn là nhóm môn điểm cao không?",
+      "answer": "Có, trong giai đoạn GDPT 2006, GDCD thường nằm nhóm mean cao; ở 2026, Kinh tế và pháp luật đạt mean 5,02 và p90 6,75.",
+      "evidence": "GDCD có 9 năm dữ liệu; Kinh tế và pháp luật xuất hiện ở schema 2025-2026.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 9,
+      "group": "Xu hướng điểm số",
+      "question": "Tỷ lệ điểm 8+ năm gần nhất cao nhất ở môn nào?",
+      "answer": "Năm 2026, Công nghệ nông nghiệp có tỷ lệ 8+ cao nhất: 24,30%.",
+      "evidence": "Tỷ lệ = số lượt điểm >=8 / số lượt dự thi môn đó.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 10,
+      "group": "Xu hướng điểm số",
+      "question": "Tỷ lệ điểm liệt (<=1) cao nhất rơi vào môn/năm nào?",
+      "answer": "Cực trị toàn chuỗi là Lịch sử năm 2016: 1,79%.",
+      "evidence": "Tính trên từng môn/năm, ngưỡng <=1.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 11,
+      "group": "Xu hướng điểm số",
+      "question": "Môn/năm nào có tỷ lệ dưới trung bình (<5) cao nhất?",
+      "answer": "Ngoại ngữ năm 2016 có tỷ lệ dưới 5 cao nhất: 88,27%.",
+      "evidence": "Tính trên từng môn/năm.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 12,
+      "group": "Xu hướng điểm số",
+      "question": "Năm nào và môn nào có nhiều điểm 10 nhất?",
+      "answer": "Kỷ lục số lượng điểm 10 là GDCD năm 2021 với 18.789 điểm 10.",
+      "evidence": "Đếm tuyệt đối từ phổ điểm theo môn/năm.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 13,
+      "group": "Xu hướng điểm số",
+      "question": "Có môn nào giảm điểm trung bình liên tục nhiều năm liền không?",
+      "answer": "Có. Chuỗi giảm dài nhất là Toán với 3 bước giảm liên tiếp, kết thúc năm 2023.",
+      "evidence": "Dò chuỗi mean năm sau < năm trước theo từng môn.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 14,
+      "group": "Xu hướng điểm số",
+      "question": "So sánh Toán và Ngữ văn: môn nào ổn định hơn theo trung bình năm?",
+      "answer": "Ngữ văn ổn định hơn theo độ lệch chuẩn của mean qua năm: 0,76, so với Toán là 0,81.",
+      "evidence": "Dùng độ lệch chuẩn của điểm trung bình năm, không phải độ lệch chuẩn điểm cá nhân.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 15,
+      "group": "Xu hướng điểm số",
+      "question": "Năm gần nhất có dễ hơn năm trước không?",
+      "answer": "So với 2025, các môn chung năm 2026 biến động không đồng đều. Môn giảm mạnh nhất là Kinh tế và pháp luật (-2,67); môn tăng mạnh nhất là Toán (0,85).",
+      "evidence": "2025 là năm chuyển tiếp CT2006/CT2018, nên kết luận 'dễ hơn' chỉ nên đọc theo từng môn.",
+      "status": "Một phần",
+      "tags": []
+    },
+    {
+      "id": 16,
+      "group": "Tỉnh thành và vùng miền",
+      "question": "Năm 2026, tỉnh/thành nào có mặt bằng điểm cao nhất?",
+      "answer": "Ninh Bình đứng đầu theo trung bình mọi lượt điểm môn: 6,32.",
+      "evidence": "Xếp hạng theo mean có trọng số các lượt điểm môn trong năm 2026.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 17,
+      "group": "Tỉnh thành và vùng miền",
+      "question": "Năm 2026, tỉnh/thành nào có mặt bằng điểm thấp nhất?",
+      "answer": "Sơn La thấp nhất theo cùng cách tính: 4,98.",
+      "evidence": "Xếp hạng theo mean có trọng số các lượt điểm môn trong năm 2026.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 18,
+      "group": "Tỉnh thành và vùng miền",
+      "question": "Top tỉnh/thành môn Toán năm 2026 là ai?",
+      "answer": "Top 3 là: Ninh Bình 6,26; TP. Hồ Chí Minh 6,19; Hà Nội 6,16.",
+      "evidence": "Chỉ xét tỉnh/thành có ít nhất 500 lượt điểm môn đó.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 19,
+      "group": "Tỉnh thành và vùng miền",
+      "question": "Top tỉnh/thành môn Ngữ văn năm 2026 là ai?",
+      "answer": "Top 3 là: Ninh Bình 7,26; Hải Phòng 7,25; Nghệ An 7,03.",
+      "evidence": "Chỉ xét tỉnh/thành có ít nhất 500 lượt điểm môn đó.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 20,
+      "group": "Tỉnh thành và vùng miền",
+      "question": "Top tỉnh/thành môn Ngoại ngữ năm 2026 là ai?",
+      "answer": "Top 3 là: Hà Nội 5,57; TP. Hồ Chí Minh 5,37; Tuyên Quang 5,37.",
+      "evidence": "Chỉ xét tỉnh/thành có ít nhất 500 lượt điểm môn đó.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 21,
+      "group": "Tỉnh thành và vùng miền",
+      "question": "Tỉnh nào có điểm Ngoại ngữ trung bình thấp nhất năm gần nhất?",
+      "answer": "Tây Ninh thấp nhất trong bảng Ngoại ngữ 2026, mean 4,54.",
+      "evidence": "Không tự gán nguyên nhân nông thôn/miền núi nếu chưa có biến kinh tế-xã hội.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 22,
+      "group": "Tỉnh thành và vùng miền",
+      "question": "Hà Nội chênh so với phần còn lại bao nhiêu điểm?",
+      "answer": "Năm 2026, Hà Nội mean 6,18, cao hơn phần còn lại 0,38 điểm.",
+      "evidence": "So sánh theo trung bình mọi lượt điểm môn.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 23,
+      "group": "Tỉnh thành và vùng miền",
+      "question": "TP.HCM chênh so với phần còn lại bao nhiêu điểm?",
+      "answer": "Năm 2026, TP.HCM mean 6,04, chênh 0,23 điểm so với phần còn lại.",
+      "evidence": "So sánh theo trung bình mọi lượt điểm môn.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 24,
+      "group": "Tỉnh thành và vùng miền",
+      "question": "Hà Nội và TP.HCM: nơi nào nhỉnh hơn trong năm gần nhất?",
+      "answer": "Hà Nội nhỉnh hơn TP.HCM 0,14 điểm theo mean tổng hợp lượt điểm môn.",
+      "evidence": "Nếu giá trị âm nghĩa là TP.HCM cao hơn; ở đây dùng dữ liệu 2026.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 25,
+      "group": "Tỉnh thành và vùng miền",
+      "question": "Tỉnh nào 'vượt trội bất ngờ' nếu bỏ Hà Nội và TP.HCM?",
+      "answer": "Ninh Bình là tỉnh/thành ngoài hai trung tâm lớn có mean tổng hợp cao nhất: 6,32.",
+      "evidence": "Đây là cách đặt câu hỏi vui; không kết luận chất lượng giáo dục chỉ từ điểm thi.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 26,
+      "group": "Tỉnh thành và vùng miền",
+      "question": "Tỉnh nào có tỷ lệ điểm 10 cao nhất so với số lượt dự thi?",
+      "answer": "Nghệ An có tỷ lệ điểm 10 cao nhất năm 2026: 0,37%.",
+      "evidence": "Tính trên mọi lượt điểm môn, không phải số thí sinh.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 27,
+      "group": "Tỉnh thành và vùng miền",
+      "question": "Miền nào học đều các môn hơn trong năm gần nhất?",
+      "answer": "Miền Bắc có độ lệch chuẩn mean giữa các môn thấp nhất: 0,62.",
+      "evidence": "Region mapping là quy ước phân tích, nhất là sau sáp nhập 2026.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 28,
+      "group": "Tỉnh thành và vùng miền",
+      "question": "Tỉnh nào tăng trưởng mặt bằng điểm nhanh nhất giai đoạn mã tỉnh ổn định 2017-2024?",
+      "answer": "Bắc Ninh tăng mạnh nhất: 1,79 điểm từ 2017 đến 2024.",
+      "evidence": "Không dùng 2026 vì mã tỉnh đã đổi theo mô hình 34 tỉnh/thành.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 29,
+      "group": "Tỉnh thành và vùng miền",
+      "question": "Nếu đặt biệt danh theo môn mạnh, tỉnh nào xứng đáng là 'vương quốc Ngoại ngữ'?",
+      "answer": "Năm 2026, Hà Nội dẫn đầu Ngoại ngữ với mean 5,57; biệt danh vui: 'vương quốc Ngoại ngữ'.",
+      "evidence": "Biệt danh chỉ là cách kể chuyện dữ liệu, không phải xếp hạng chính thức.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 30,
+      "group": "Tỉnh thành và vùng miền",
+      "question": "Có nên xếp hạng trường/cụm thi từ bộ này không?",
+      "answer": "Chỉ làm được một phần: legacy 2013-2014 có mã trường dự thi, còn THPT 2016-2026 bulk hiện không có trường THPT. Vì vậy web không xếp hạng trường để tránh suy diễn thiếu dữ liệu.",
+      "evidence": "Gap report xác nhận thiếu trường học cho chuỗi THPT hiện đại.",
+      "status": "Một phần",
+      "tags": []
+    },
+    {
+      "id": 31,
+      "group": "Môn học và tổ hợp",
+      "question": "Trong nhóm tự nhiên năm gần nhất, môn nào có nhiều thí sinh nhất?",
+      "answer": "Vật lí có nhiều lượt điểm nhất trong nhóm tự nhiên: 385.930.",
+      "evidence": "Đếm số lượt điểm hợp lệ theo môn năm 2026.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 32,
+      "group": "Môn học và tổ hợp",
+      "question": "Trong nhóm xã hội năm gần nhất, môn nào có nhiều thí sinh nhất?",
+      "answer": "Lịch sử có nhiều lượt điểm nhất trong nhóm xã hội: 565.056.",
+      "evidence": "Đếm số lượt điểm hợp lệ theo môn năm 2026.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 33,
+      "group": "Môn học và tổ hợp",
+      "question": "Xu hướng chọn tự nhiên hay xã hội thay đổi ra sao?",
+      "answer": "Có thể theo dõi bằng số lượt dự thi từng môn, nhưng sau 2025 cấu trúc môn tự chọn đổi rõ nên cần tách giai đoạn 2017-2024 và 2025-2026 khi phân tích sâu.",
+      "evidence": "Dữ liệu có count theo môn/năm; diễn giải xu hướng phải tôn trọng thay đổi chương trình.",
+      "status": "Một phần",
+      "tags": []
+    },
+    {
+      "id": 34,
+      "group": "Môn học và tổ hợp",
+      "question": "Tổ hợp nào có điểm trung bình cao nhất năm 2026?",
+      "answer": "B00 cao nhất, mean 19,69, p90 25,25.",
+      "evidence": "Dựa trên cột tổ hợp do nguồn tính sẵn, loại dòng không có điểm tổ hợp.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 35,
+      "group": "Môn học và tổ hợp",
+      "question": "Điểm tổ hợp A00 thay đổi thế nào?",
+      "answer": "A00 đi từ mean 17,25 năm 2016 đến 19,41 năm 2026; năm 2026 tỷ lệ >=27 là 1,99%.",
+      "evidence": "Dùng các cột tổ hợp đã có trong raw data.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 36,
+      "group": "Môn học và tổ hợp",
+      "question": "Điểm tổ hợp A01 thay đổi thế nào?",
+      "answer": "A01 đi từ mean 15,13 năm 2016 đến 18,41 năm 2026; năm 2026 tỷ lệ >=27 là 0,83%.",
+      "evidence": "Dùng các cột tổ hợp đã có trong raw data.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 37,
+      "group": "Môn học và tổ hợp",
+      "question": "Điểm tổ hợp D01/D00 thay đổi thế nào?",
+      "answer": "D01/D00 đi từ mean 13,00 năm 2016 đến 19,02 năm 2026; năm 2026 tỷ lệ >=27 là 0,18%.",
+      "evidence": "Dùng các cột tổ hợp đã có trong raw data.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 38,
+      "group": "Môn học và tổ hợp",
+      "question": "Điểm tổ hợp C00 thay đổi thế nào?",
+      "answer": "C00 đi từ mean 15,13 năm 2016 đến 17,23 năm 2026; năm 2026 tỷ lệ >=27 là 0,21%.",
+      "evidence": "Dùng các cột tổ hợp đã có trong raw data.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 39,
+      "group": "Môn học và tổ hợp",
+      "question": "Điểm tổ hợp B00 thay đổi thế nào?",
+      "answer": "B00 đi từ mean 15,90 năm 2016 đến 19,69 năm 2026; năm 2026 tỷ lệ >=27 là 3,53%.",
+      "evidence": "Dùng các cột tổ hợp đã có trong raw data.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 40,
+      "group": "Môn học và tổ hợp",
+      "question": "Tổ hợp nào có tỷ lệ từ 27 điểm trở lên cao nhất năm 2026?",
+      "answer": "B00 có tỷ lệ >=27 cao nhất: 3,53%.",
+      "evidence": "Đây là chỉ báo 'lạm phát điểm' theo tổ hợp, không phải xác suất đỗ.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 41,
+      "group": "Môn học và tổ hợp",
+      "question": "Ngưỡng top 10% theo tổ hợp năm gần nhất là bao nhiêu?",
+      "answer": "Một vài ngưỡng p90 năm 2026: B00: 25,25; A00: 24,75; C01: 23,75; D01/D00: 23,25; D07: 23,50.",
+      "evidence": "p90 nghĩa là khoảng 10% lượt tổ hợp hợp lệ cao hơn hoặc bằng mốc này.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 42,
+      "group": "Môn học và tổ hợp",
+      "question": "GDCD có phải 'môn cứu điểm' mọi năm không?",
+      "answer": "Trong các năm có GDCD, môn này thường ở nhóm mean cao, nhưng từ 2025-2026 schema mới thay bằng Kinh tế và pháp luật cho nhóm CT2018; vì vậy nên nói 'nhóm môn công dân/pháp luật thường dễ kéo điểm' hơn là khẳng định mọi năm.",
+      "evidence": "Dựa trên mean môn theo năm và thay đổi schema 2025.",
+      "status": "Một phần",
+      "tags": []
+    },
+    {
+      "id": 43,
+      "group": "Môn học và tổ hợp",
+      "question": "Môn tự luận và trắc nghiệm khác nhau thế nào qua phổ điểm?",
+      "answer": "Năm 2026, Ngữ văn mean 6,50; Toán mean 5,65; Ngoại ngữ mean 5,09. Khác biệt có thật trên phổ điểm, nhưng không chỉ do hình thức thi.",
+      "evidence": "Cần kiểm soát năng lực nhóm thí sinh và cấu trúc đề nếu muốn kết luận nguyên nhân.",
+      "status": "Một phần",
+      "tags": []
+    },
+    {
+      "id": 44,
+      "group": "Môn học và tổ hợp",
+      "question": "Môn nào dưới trung bình nhiều nhất ở năm gần nhất?",
+      "answer": "Năm 2026, Ngoại ngữ có tỷ lệ <5 cao nhất: 49,95%.",
+      "evidence": "Tính theo lượt điểm hợp lệ từng môn.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 45,
+      "group": "Môn học và tổ hợp",
+      "question": "Ngoại ngữ đang cải thiện hay vẫn là nỗi ám ảnh?",
+      "answer": "Năm 2026, Ngoại ngữ mean 5,09, p90 7,50, tỷ lệ <5 là 49,95%. Đây vẫn là môn phân hóa mạnh, không thể chỉ gọi là 'dễ'.",
+      "evidence": "Dựa trên mean, p90 và tỷ lệ dưới 5.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 46,
+      "group": "Ứng dụng và ngưỡng điểm",
+      "question": "Ngưỡng top 10% theo môn năm 2026 là gì?",
+      "answer": "Các mốc p90 cao nhất: Công nghệ công nghiệp: 8,75; Công nghệ nông nghiệp: 8,50; Lịch sử: 8,50; Hóa học: 8,25; Tin học: 8,25; Sinh học: 8,25.",
+      "evidence": "p90 tính từ phổ điểm theo từng môn.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 47,
+      "group": "Ứng dụng và ngưỡng điểm",
+      "question": "Đạt 8 điểm Toán năm 2026 thuộc nhóm nào?",
+      "answer": "Khoảng 15,63% lượt điểm Toán đạt từ 8 trở lên; nói cách khác 8 điểm thuộc nhóm trên với độ hiếm như vậy.",
+      "evidence": "Tính trực tiếp từ share_ge_8.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 48,
+      "group": "Ứng dụng và ngưỡng điểm",
+      "question": "Đạt 8 điểm Ngoại ngữ năm 2026 thuộc nhóm nào?",
+      "answer": "Khoảng 7,38% lượt điểm Ngoại ngữ đạt từ 8 trở lên; nói cách khác 8 điểm thuộc nhóm trên với độ hiếm như vậy.",
+      "evidence": "Tính trực tiếp từ share_ge_8.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 49,
+      "group": "Ứng dụng và ngưỡng điểm",
+      "question": "Môn nào phân hóa mạnh nhất năm gần nhất?",
+      "answer": "Toán có độ lệch chuẩn cao nhất năm 2026: 1,89.",
+      "evidence": "Độ lệch chuẩn cao thường cho thấy phổ điểm trải rộng hơn.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 50,
+      "group": "Ứng dụng và ngưỡng điểm",
+      "question": "Môn nào ít phân hóa nhất năm gần nhất?",
+      "answer": "Công nghệ nông nghiệp có độ lệch chuẩn thấp nhất năm 2026: 1,27.",
+      "evidence": "Độ lệch chuẩn thấp nghĩa là điểm tập trung hơn quanh trung bình.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 51,
+      "group": "Ứng dụng và ngưỡng điểm",
+      "question": "Môn nào có mean và median lệch nhau đáng chú ý nhất?",
+      "answer": "Năm 2026, Ngữ văn có độ lệch/skew nổi bật nhất trong nhóm mới: skew -0,75.",
+      "evidence": "Skew tính từ phân phối điểm rời rạc.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 52,
+      "group": "Ứng dụng và ngưỡng điểm",
+      "question": "Nếu học mạnh Toán, nên nhìn tổ hợp nào trước?",
+      "answer": "Về mặt phổ điểm năm 2026, B00 có mean cao nhất, còn B00 có tỷ lệ >=27 cao nhất. Chọn ngành vẫn cần điểm chuẩn thật, sở thích và môn mạnh cá nhân.",
+      "evidence": "Đây là gợi ý đọc phổ điểm, không phải tư vấn tuyển sinh cá nhân.",
+      "status": "Một phần",
+      "tags": []
+    },
+    {
+      "id": 53,
+      "group": "Ứng dụng và ngưỡng điểm",
+      "question": "Nếu mục tiêu 27+ thì tổ hợp nào 'dễ thở' hơn theo dữ liệu?",
+      "answer": "B00 có tỷ lệ >=27 cao nhất năm 2026: 3,53%.",
+      "evidence": "Chỉ so trong nhóm thí sinh có đủ điểm tổ hợp.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 54,
+      "group": "Ứng dụng và ngưỡng điểm",
+      "question": "Nếu ở tỉnh có mặt bằng cao, mức cạnh tranh tham khảo là bao nhiêu?",
+      "answer": "Ở tỉnh/thành đứng đầu 2026 là Ninh Bình, mean tổng hợp đạt 6,32. Khi làm bản tương tác, nên cho người dùng chọn tỉnh X để xem p50/p90 theo môn.",
+      "evidence": "Hiện web cung cấp bảng top và có thể mở rộng selector tỉnh.",
+      "status": "Một phần",
+      "tags": []
+    },
+    {
+      "id": 55,
+      "group": "Ứng dụng và ngưỡng điểm",
+      "question": "Năm gần nhất có bao nhiêu lượt điểm môn được dùng để phân tích?",
+      "answer": "Năm 2026 có 4.787.559 lượt điểm môn hợp lệ trên 12 môn.",
+      "evidence": "Một thí sinh có nhiều lượt điểm môn, nên đây không phải số thí sinh.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 56,
+      "group": "Ứng dụng và ngưỡng điểm",
+      "question": "Môn nào cần cảnh báo rủi ro điểm liệt nhất năm gần nhất?",
+      "answer": "Năm 2026, môn có tỷ lệ <=1 cao nhất là Địa lí.",
+      "evidence": "Dựa trên ngưỡng <=1 điểm.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 57,
+      "group": "Tương quan và thống kê sâu",
+      "question": "Toán và Vật lí tương quan thế nào năm 2026?",
+      "answer": "Hệ số Pearson là 0,732 trên 385.903 thí sinh có đủ cả hai điểm.",
+      "evidence": "Pearson đo tương quan tuyến tính, không phải quan hệ nhân quả.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 58,
+      "group": "Tương quan và thống kê sâu",
+      "question": "Toán và Hóa học tương quan thế nào năm 2026?",
+      "answer": "Hệ số Pearson là 0,711 trên 250.784 thí sinh có đủ cả hai điểm.",
+      "evidence": "Pearson đo tương quan tuyến tính, không phải quan hệ nhân quả.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 59,
+      "group": "Tương quan và thống kê sâu",
+      "question": "Ngữ văn và Lịch sử tương quan thế nào năm 2026?",
+      "answer": "Hệ số Pearson là 0,529 trên 564.666 thí sinh có đủ cả hai điểm.",
+      "evidence": "Pearson đo tương quan tuyến tính, không phải quan hệ nhân quả.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 60,
+      "group": "Tương quan và thống kê sâu",
+      "question": "Ngữ văn và Địa lí tương quan thế nào năm 2026?",
+      "answer": "Hệ số Pearson là 0,548 trên 443.639 thí sinh có đủ cả hai điểm.",
+      "evidence": "Pearson đo tương quan tuyến tính, không phải quan hệ nhân quả.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 61,
+      "group": "Tương quan và thống kê sâu",
+      "question": "Ngoại ngữ tương quan với khối tự nhiên hay xã hội hơn?",
+      "answer": "Năm 2026, tương quan trung bình của Ngoại ngữ với khối tự nhiên cao hơn: tự nhiên 0,503, xã hội 0,293.",
+      "evidence": "So trung bình các Pearson theo cặp môn.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 62,
+      "group": "Tương quan và thống kê sâu",
+      "question": "Thí sinh điểm 10 một môn có học đều không?",
+      "answer": "Nhóm đạt 10 ở Hóa học có mean các lượt điểm môn khác cao nhất trong bảng perfect-10: 8,52.",
+      "evidence": "Tính mean các môn khác trong năm 2026 cho từng nhóm đạt 10.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 63,
+      "group": "Tương quan và thống kê sâu",
+      "question": "Có hiện tượng giỏi lệch một môn ở nhóm điểm 10 không?",
+      "answer": "Có thể có. Nhóm đạt 10 ở Công nghệ nông nghiệp có mean môn khác thấp nhất trong nhóm điểm 10: 6,40.",
+      "evidence": "Cần xem thêm tổ hợp môn thí sinh chọn để kết luận sâu hơn.",
+      "status": "Một phần",
+      "tags": []
+    },
+    {
+      "id": 64,
+      "group": "Tương quan và thống kê sâu",
+      "question": "Có cặp môn nào biến động ngược chiều giữa các năm không?",
+      "answer": "Giai đoạn 2017-2024, cặp có tương quan mean năm thấp nhất là Địa lí - Sinh học: r=0,586.",
+      "evidence": "Tính tương quan giữa chuỗi mean theo năm, không phải tương quan cá nhân.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 65,
+      "group": "Tương quan và thống kê sâu",
+      "question": "Phổ điểm nào gần hình chuông nhất?",
+      "answer": "Gần chuẩn nhất theo thước đo skew+kurtosis là Địa lí năm 2016.",
+      "evidence": "Thước đo đơn giản: |skew| + |excess kurtosis|.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 66,
+      "group": "Tương quan và thống kê sâu",
+      "question": "Phổ điểm nào lệch khỏi hình chuông nhất?",
+      "answer": "Lệch nhiều nhất theo cùng thước đo là Ngoại ngữ năm 2016.",
+      "evidence": "Không coi đây là kiểm định phân phối chuẩn chính thức.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 67,
+      "group": "Tương quan và thống kê sâu",
+      "question": "Môn nào có nhiều điểm thấp nhất trong lịch sử chuỗi?",
+      "answer": "Theo tỷ lệ <5, cực trị là Ngoại ngữ năm 2016: 88,27%.",
+      "evidence": "Dùng tỷ lệ dưới trung bình như proxy cho 'lệch về điểm thấp'.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 68,
+      "group": "Tương quan và thống kê sâu",
+      "question": "Môn nào có đuôi điểm cao dày nhất năm gần nhất?",
+      "answer": "Năm 2026, Công nghệ công nghiệp có tỷ lệ >=9 cao nhất.",
+      "evidence": "Tỷ lệ >=9 đo đuôi phải của phổ điểm.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 69,
+      "group": "Tương quan và thống kê sâu",
+      "question": "Đề thi có đang phân hóa mạnh hơn không?",
+      "answer": "Nhìn từng môn thì không đồng loạt. Năm 2026, môn phân hóa mạnh nhất là Toán (std 1,89); cần đọc theo từng môn thay vì một kết luận chung.",
+      "evidence": "Dựa trên độ lệch chuẩn theo môn/năm.",
+      "status": "Một phần",
+      "tags": []
+    },
+    {
+      "id": 70,
+      "group": "Thời sự, cải cách và chất lượng dữ liệu",
+      "question": "Bước chuyển 2019 sang 2020 có làm mặt bằng điểm thay đổi không?",
+      "answer": "Có dấu hiệu tăng rõ: mean có trọng số toàn chuỗi tăng 0,87 điểm từ 2019 sang 2020.",
+      "evidence": "Đây là mô tả dữ liệu, không tự chứng minh nguyên nhân do cấu trúc đề.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 71,
+      "group": "Thời sự, cải cách và chất lượng dữ liệu",
+      "question": "Cú đổi chương trình 2025-2026 ảnh hưởng thế nào?",
+      "answer": "Ảnh hưởng lớn nhất nằm ở schema môn: xuất hiện Kinh tế và pháp luật, Tin học, Công nghệ; một số môn cũ như GDCD không còn trực tiếp tương đương cho toàn bộ thí sinh CT2018.",
+      "evidence": "Dựa trên metadata/subjects.csv và raw schema 2025-2026.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 72,
+      "group": "Thời sự, cải cách và chất lượng dữ liệu",
+      "question": "Các môn mới 2025-2026 có đủ dữ liệu để phân tích không?",
+      "answer": "Có cho phân tích mô tả. Năm 2026, Tin học có 18.264 lượt điểm; Kinh tế và pháp luật có 282.519 lượt điểm.",
+      "evidence": "Dữ liệu mới chỉ có hai năm nên phân tích xu hướng dài hạn còn yếu.",
+      "status": "Một phần",
+      "tags": []
+    },
+    {
+      "id": 73,
+      "group": "Thời sự, cải cách và chất lượng dữ liệu",
+      "question": "Năm 2025 CT2018 và CT2006 có cần tách riêng không?",
+      "answer": "Có. CT2018 chiếm phần lớn còn CT2006 là nhóm nhỏ hơn nhiều; gộp chung được cho tổng quan nhưng phân tích cải cách nên tách hai segment.",
+      "evidence": "processed_file_inventory.csv ghi CT2018 1.131.136 dòng và CT2006 22.090 dòng.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 74,
+      "group": "Thời sự, cải cách và chất lượng dữ liệu",
+      "question": "Đợt 2 năm 2020 có làm méo thống kê không?",
+      "answer": "Đợt 2 Đà Nẵng có 10.857 dòng, nhỏ so với đợt chính 870.517 dòng; nên giữ lại để đủ dữ liệu nhưng có thể tách segment khi cần.",
+      "evidence": "Dựa trên processed_file_inventory.csv.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 75,
+      "group": "Thời sự, cải cách và chất lượng dữ liệu",
+      "question": "Đợt 2 năm 2021 có làm méo thống kê không?",
+      "answer": "Đợt 2 năm 2021 có 12.086 dòng, nhỏ so với đợt chính 987.704 dòng; ảnh hưởng tổng thể hạn chế nhưng vẫn nên ghi provenance.",
+      "evidence": "Dựa trên processed_file_inventory.csv.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 76,
+      "group": "Thời sự, cải cách và chất lượng dữ liệu",
+      "question": "Cụm đại học và cụm địa phương năm 2016 khác nhau thế nào?",
+      "answer": "Năm 2016, cụm đại học mean tổng hợp khoảng 4,88, cụm địa phương khoảng 4,19.",
+      "evidence": "2016 có Tinh là mã cụm, không hoàn toàn tương đương mã tỉnh.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 77,
+      "group": "Thời sự, cải cách và chất lượng dữ liệu",
+      "question": "Có dữ liệu năm 2015 không?",
+      "answer": "Chưa có trong nguồn canonical hiện tại, nên mọi biểu đồ thời gian phải ghi rõ khoảng trống 2015.",
+      "evidence": "metadata/gap_report.md xác nhận thiếu file raw 2015.",
+      "status": "Không đủ dữ liệu",
+      "tags": []
+    },
+    {
+      "id": 78,
+      "group": "Thời sự, cải cách và chất lượng dữ liệu",
+      "question": "Dữ liệu 2026 đã được đối chiếu độc lập chưa?",
+      "answer": "Có. Repo lưu crosscheck với nguồn anhdung98: cùng 1.208.863 SBD và không có mismatch ở các cột điểm đã map.",
+      "evidence": "metadata/crosscheck_2026_anhdung98.csv.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 79,
+      "group": "Thời sự, cải cách và chất lượng dữ liệu",
+      "question": "Dữ liệu có phải sau phúc khảo không?",
+      "answer": "Chưa thể khẳng định nhất quán cho toàn chuỗi; đa số nguồn công khai là snapshot công bố điểm, không có trường phúc khảo chuẩn hóa.",
+      "evidence": "Gap report ghi đây là vùng yếu cần bổ sung nguồn nếu phân tích pháp lí/chính sách.",
+      "status": "Không đủ dữ liệu",
+      "tags": []
+    },
+    {
+      "id": 80,
+      "group": "Vui, bói toán có kiểm chứng",
+      "question": "Nếu hỏi vui 'tên nào thông minh nhất' theo điểm legacy thì tên nào đứng đầu?",
+      "answer": "Trong legacy 2013-2014, với ngưỡng tối thiểu 1.000 người, tên chính 'Bách' có mean tổng điểm cao nhất: 14,49. Đây chỉ là tương quan vui, tuyệt đối không phải nhân quả.",
+      "evidence": "Dựa trên data/analysis/legacy_2013_2014_features.csv; không dùng cho THPT 2016-2026 vì thiếu tên.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 81,
+      "group": "Vui, bói toán có kiểm chứng",
+      "question": "Top 5 tên chính có tỷ lệ vào nhóm điểm cao tốt nhất là gì?",
+      "answer": "Top 5 theo tỷ lệ lọt nhóm top 5% legacy là: Bách, Đan, Kiên, Minh, Anh.",
+      "evidence": "Chỉ tính tên có ít nhất 1.000 bản ghi để tránh nhiễu mẫu nhỏ.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 82,
+      "group": "Vui, bói toán có kiểm chứng",
+      "question": "Bạn tên Anh có giỏi Ngoại ngữ hơn không?",
+      "answer": "Trong khối D legacy, thí sinh tên chính Anh có mean môn Ngoại ngữ 4,68, nhóm tên khác 4,34; chênh 0,34 điểm.",
+      "evidence": "Đùa chữ nhưng có kiểm chứng trên khối D 2013-2014.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 83,
+      "group": "Vui, bói toán có kiểm chứng",
+      "question": "Họ Nguyễn có điểm trung bình khác các họ khác không?",
+      "answer": "Họ Nguyễn mean tổng điểm 13,50; nhóm họ khác 13,30; chênh 0,20.",
+      "evidence": "Chênh lệch nhỏ không nói lên nguyên nhân.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 84,
+      "group": "Vui, bói toán có kiểm chứng",
+      "question": "Tháng sinh nào có mean tổng điểm cao nhất?",
+      "answer": "Trong legacy, tháng 11 cao nhất với mean 13,54.",
+      "evidence": "Chỉ dùng bản ghi có ngày sinh parse hợp lệ.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 85,
+      "group": "Vui, bói toán có kiểm chứng",
+      "question": "Tháng sinh có tạo khác biệt lớn không?",
+      "answer": "Khoảng cách giữa tháng cao nhất (11) và thấp nhất (6) là 0,27 điểm tổng 3 môn; khá nhỏ so với biến thiên cá nhân.",
+      "evidence": "Không đủ cơ sở để nói tháng sinh quyết định điểm.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 86,
+      "group": "Vui, bói toán có kiểm chứng",
+      "question": "Cung hoàng đạo nào có mean cao nhất?",
+      "answer": "Bọ Cạp cao nhất trong legacy, mean 13,55. Nhắc lại: đây là trò vui thống kê, không phải khoa học chiêm tinh.",
+      "evidence": "Suy ra từ ngày/tháng sinh parse hợp lệ 2013-2014.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 87,
+      "group": "Vui, bói toán có kiểm chứng",
+      "question": "Cung hoàng đạo có khác biệt đáng kể không?",
+      "answer": "Khoảng cách mean giữa cung cao nhất và thấp nhất là 0,26 điểm tổng 3 môn; không đủ để tin vào 'cung học giỏi'.",
+      "evidence": "Không kiểm soát tỉnh, trường, khối thi, năm sinh.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 88,
+      "group": "Vui, bói toán có kiểm chứng",
+      "question": "Tên đệm dài hơn có điểm cao hơn không?",
+      "answer": "Nhóm có 2 token tên đệm có mean cao nhất (13,55), nhưng đây dễ là nhiễu văn hóa đặt tên hơn là tác động thật.",
+      "evidence": "Feature chỉ lưu số token tên đệm, không xuất bản tên đầy đủ.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 89,
+      "group": "Vui, bói toán có kiểm chứng",
+      "question": "Số báo danh có chữ số 'đẹp' thì điểm cao hơn không?",
+      "answer": "Hầu như không. Tương quan giữa tổng chữ số SBD và mean điểm cá nhân năm 2026 là -0,0313.",
+      "evidence": "SBD là mã hành chính/kỹ thuật, không nên gán ý nghĩa phong thủy.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 90,
+      "group": "Vui, bói toán có kiểm chứng",
+      "question": "SBD chứa 68/86 có 'lộc phát' điểm số không?",
+      "answer": "Nhóm SBD chứa 68/86 có mean 5,67; toàn bộ thí sinh có mean 5,84. Chênh lệch này không đáng để mê tín.",
+      "evidence": "Tính mean điểm cá nhân 2026 theo các môn có điểm.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 91,
+      "group": "Vui, bói toán có kiểm chứng",
+      "question": "Năm nào xứng biệt danh 'mưa điểm 10'?",
+      "answer": "Năm/môn xứng danh nhất là 2021 - GDCD, với 18.789 điểm 10.",
+      "evidence": "Đặt biệt danh theo số lượng tuyệt đối điểm 10.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 92,
+      "group": "Vui, bói toán có kiểm chứng",
+      "question": "Tỉnh nào xứng danh 'thủ phủ Toán học' năm gần nhất?",
+      "answer": "Ninh Bình dẫn đầu Toán 2026, mean 6,26.",
+      "evidence": "Biệt danh vui dựa trên mean Toán cấp tỉnh.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 93,
+      "group": "Vui, bói toán có kiểm chứng",
+      "question": "Có tên nào 'nên tránh' khi đặt tên con không?",
+      "answer": "Không. Bộ dữ liệu chỉ cho tương quan thô theo tên trong legacy 2013-2014; dùng để kể chuyện vui thì được, dùng để chọn/né tên thì không nghiêm túc.",
+      "evidence": "Thiếu thiết kế nhân quả và thiếu trường nền tảng gia đình/xã hội.",
+      "status": "Một phần",
+      "tags": []
+    },
+    {
+      "id": 94,
+      "group": "Vui, bói toán có kiểm chứng",
+      "question": "Nếu dự đoán vui năm sau, môn nào có khả năng tăng mean nhất?",
+      "answer": "Theo trend tuyến tính thô vài năm gần đây, Lịch sử có slope dương cao nhất (0,044 điểm/năm). Đây chỉ là dự báo vui.",
+      "evidence": "Không dùng để dự báo chính sách hoặc điểm chuẩn.",
+      "status": "Một phần",
+      "tags": []
+    },
+    {
+      "id": 95,
+      "group": "Phạm vi, đạo đức và sản phẩm",
+      "question": "Dữ liệu THPT 2016-2026 có họ tên và ngày sinh không?",
+      "answer": "Không trong các bulk file đã rà. Họ tên/ngày sinh chỉ có ở legacy tuyển sinh ĐH-CĐ 2013-2014.",
+      "evidence": "metadata/gap_report.md và schema raw 2016-2026.",
+      "status": "Không đủ dữ liệu",
+      "tags": []
+    },
+    {
+      "id": 96,
+      "group": "Phạm vi, đạo đức và sản phẩm",
+      "question": "Có thể kết luận tên hoặc tháng sinh gây ra học giỏi không?",
+      "answer": "Không. Các mục tên/tháng sinh chỉ là tương quan vui; muốn nói nhân quả cần kiểm soát tỉnh, trường, khối thi, nền tảng gia đình, cohort và nhiều biến nhiễu khác.",
+      "evidence": "Đây là cảnh báo phương pháp bắt buộc khi công bố phân tích định danh.",
+      "status": "Không đủ dữ liệu",
+      "tags": []
+    },
+    {
+      "id": 97,
+      "group": "Phạm vi, đạo đức và sản phẩm",
+      "question": "Những câu hỏi nào hiện chưa trả lời được tốt?",
+      "answer": "Các câu về giới tính, thí sinh tự do, trường THPT, tỷ lệ tốt nghiệp, điểm chuẩn đại học/ngành cụ thể và phúc khảo chưa trả lời chắc bằng dữ liệu hiện có.",
+      "evidence": "Các trường đó không có hoặc không chuẩn hóa trong bộ bulk hiện tại.",
+      "status": "Không đủ dữ liệu",
+      "tags": []
+    },
+    {
+      "id": 98,
+      "group": "Phạm vi, đạo đức và sản phẩm",
+      "question": "Bộ dữ liệu hiện bao phủ bao nhiêu dòng?",
+      "answer": "Repo có 10.865.001 dòng THPT canonical 2016-2026 và 2.412.155 dòng legacy 2013-2014, tổng 13.277.156 dòng canonical.",
+      "evidence": "metadata/dataset_manifest.csv và validation script.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 99,
+      "group": "Phạm vi, đạo đức và sản phẩm",
+      "question": "Mã tỉnh 2026 có so sánh trực tiếp với các năm cũ được không?",
+      "answer": "Không nên so trực tiếp nếu chưa map lại theo sáp nhập. Web tách phân tích 2026 và dùng 2017-2024 cho trend tỉnh ổn định.",
+      "evidence": "2026 dùng danh sách 34 tỉnh/thành; 2002-2025 dùng mã cũ.",
+      "status": "Một phần",
+      "tags": []
+    },
+    {
+      "id": 100,
+      "group": "Phạm vi, đạo đức và sản phẩm",
+      "question": "101 câu hỏi có quá nhiều không?",
+      "answer": "Không quá nhiều nếu xem là ngân hàng câu hỏi. Nhưng cho một bài viết/web chính, nên highlight khoảng 20 insight đầu và để 101 câu ở phần tra cứu/tải về.",
+      "evidence": "Thiết kế site dùng bộ lọc nhóm và trạng thái để tránh quá tải.",
+      "status": "Trả lời được",
+      "tags": []
+    },
+    {
+      "id": 101,
+      "group": "Phạm vi, đạo đức và sản phẩm",
+      "question": "Nếu chỉ chọn 20 câu nổi bật để truyền thông, nên chọn nhóm nào?",
+      "answer": "Nên ưu tiên: xu hướng mean, năm khó/dễ, điểm 10, 8+, dưới 5, top tỉnh Toán/Văn/Ngoại ngữ, HN/HCM vs rest, tổ hợp 27+, p90 theo môn, tương quan Toán-Lý/Hóa, Ngoại ngữ, và 3-4 câu vui về tên/tháng sinh/SBD có cảnh báo nhân quả.",
+      "evidence": "Cân bằng nghiêm túc, hữu ích và vui; tránh biến câu vui thành kết luận định kiến.",
+      "status": "Trả lời được",
+      "tags": []
+    }
+  ]
+}
