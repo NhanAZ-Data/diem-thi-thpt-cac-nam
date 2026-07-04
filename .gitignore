@@ -1,0 +1,29 @@
+# Local Codex/app state
+.agents/
+.codex/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environments
+.venv/
+venv/
+env/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Logs/temp
+*.log
+tmp/
+temp/
+
+# Keep source submodule, but never commit nested internals as files.
+sources/du-lieu-diem-thi/.git/

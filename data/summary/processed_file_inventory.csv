@@ -1,0 +1,16 @@
+file,year,segment,rows,subjects
+sources\du-lieu-diem-thi\du-lieu-diem-thi-2016-dh.csv,2016,university_cluster,624424,Toan|NguVan|VatLy|HoaHoc|SinhHoc|LichSu|DiaLy|GDCD|NgoaiNgu
+sources\du-lieu-diem-thi\du-lieu-diem-thi-2016-dp.csv,2016,local_cluster,253036,Toan|NguVan|VatLy|HoaHoc|SinhHoc|LichSu|DiaLy|GDCD|NgoaiNgu
+sources\du-lieu-diem-thi\du_lieu_diem_thi_2017.csv,2017,main,861068,Toan|NguVan|VatLy|HoaHoc|SinhHoc|LichSu|DiaLy|GDCD|NgoaiNgu
+sources\du-lieu-diem-thi\du_lieu_diem_thi_2018.csv,2018,main,921520,Toan|NguVan|VatLy|HoaHoc|SinhHoc|LichSu|DiaLy|GDCD|NgoaiNgu
+sources\du-lieu-diem-thi\du_lieu_diem_thi_2019.csv,2019,main,882594,Toan|NguVan|VatLy|HoaHoc|SinhHoc|LichSu|DiaLy|GDCD|NgoaiNgu
+sources\du-lieu-diem-thi\du_lieu_diem_thi_2020.csv,2020,main,870517,Toan|NguVan|VatLy|HoaHoc|SinhHoc|LichSu|DiaLy|GDCD|NgoaiNgu
+sources\du-lieu-diem-thi\du_lieu_diem_thi_2020_dot_2_da_nang.csv,2020,round_2_da_nang,10857,Toan|NguVan|VatLy|HoaHoc|SinhHoc|LichSu|DiaLy|GDCD|NgoaiNgu
+sources\du-lieu-diem-thi\du_lieu_diem_thi_2021.csv,2021,main,987704,Toan|NguVan|VatLy|HoaHoc|SinhHoc|LichSu|DiaLy|GDCD|NgoaiNgu
+sources\du-lieu-diem-thi\du_lieu_diem_thi_2021_dot_2.csv,2021,round_2,12086,Toan|NguVan|VatLy|HoaHoc|SinhHoc|LichSu|DiaLy|GDCD|NgoaiNgu
+sources\du-lieu-diem-thi\du_lieu_diem_thi_2022.csv,2022,main,995441,Toan|NguVan|VatLy|HoaHoc|SinhHoc|LichSu|DiaLy|GDCD|NgoaiNgu
+sources\du-lieu-diem-thi\du_lieu_diem_thi_2023.csv,2023,main,1022060,Toan|NguVan|VatLy|HoaHoc|SinhHoc|LichSu|DiaLy|GDCD|NgoaiNgu
+sources\du-lieu-diem-thi\du_lieu_diem_thi_2024.csv,2024,main,1061605,Toan|NguVan|VatLy|HoaHoc|SinhHoc|LichSu|DiaLy|GDCD|NgoaiNgu
+sources\du-lieu-diem-thi\du-lieu-diem-thi-2025-ct2006.csv,2025,gdpt_2006,22090,Toan|NguVan|VatLy|HoaHoc|SinhHoc|LichSu|DiaLy|GDCD|NgoaiNgu
+sources\du-lieu-diem-thi\du-lieu-diem-thi-2025-ct2018.csv,2025,gdpt_2018,1131136,Toan|NguVan|VatLy|HoaHoc|SinhHoc|LichSu|DiaLy|KinhTePhapLuat|TinHoc|CongNgheCongNghiep|CongNgheNongNghiep|NgoaiNgu
+sources\du-lieu-diem-thi\du_lieu_diem_thi_2026.csv,2026,main,1208863,Toan|NguVan|VatLy|HoaHoc|SinhHoc|LichSu|DiaLy|KinhTePhapLuat|TinHoc|CongNgheCongNghiep|CongNgheNongNghiep|NgoaiNgu

@@ -1,0 +1,35 @@
+code,province_or_city,lookup_url
+01,Thanh pho Ha Noi,https://tracuu.hanoi.edu.vn/
+04,Tinh Cao Bang,https://tradiem.khaothicaobang.edu.vn/
+08,Tinh Tuyen Quang,https://diemthi.tuyenquang.edu.vn/
+11,Tinh Dien Bien,https://tracuudiem.dienbien.edu.vn/
+12,Tinh Lai Chau,http://diemthithpt.laichau.edu.vn
+14,Tinh Son La,https://diemthitotnghiep.sogddt.sonla.gov.vn
+15,Tinh Lao Cai,http://diemthi.laocai.edu.vn
+19,Tinh Thai Nguyen,https://diemthi.thainguyen.edu.vn
+20,Tinh Lang Son,http://tracuudiem.langson.edu.vn
+22,Tinh Quang Ninh,https://diemthi.quangninh.edu.vn/
+24,Tinh Bac Ninh,http://diemthi.bacninh.edu.vn
+25,Tinh Phu Tho,https://tracuudiem.phutho.edu.vn/
+31,Thanh pho Hai Phong,http://diemthithpt.haiphong.gov.vn/
+33,Tinh Hung Yen,http://diemthi.hungyen.edu.vn/
+37,Tinh Ninh Binh,https://tracuudiemnb.ninhbinh.edu.vn/
+38,Tinh Thanh Hoa,http://thitn.thanhhoa.edu.vn
+40,Tinh Nghe An,https://giaoducso.nghean.gov.vn/trang-chu/tra-cuu-diem-thi
+42,Tinh Ha Tinh,http://tracuudiemthi.hatinh.edu.vn/
+44,Tinh Quang Tri,https://diemthi.quangtri.edu.vn/
+46,Thanh pho Hue,http://tracuudiem2.thuathienhue.edu.vn/
+48,Thanh pho Da Nang,https://tracuudiem.danang.edu.vn/
+51,Tinh Quang Ngai,https://diemthi.quangngai.edu.vn
+52,Tinh Gia Lai,http://diemthi.gialai.edu.vn:8080/
+56,Tinh Khanh Hoa,http://diemthi.khanhhoa.edu.vn/
+66,Tinh Dak Lak,https://diemthi.daklak.edu.vn/
+68,Tinh Lam Dong,https://diemthi.lamdongtructuyen.vn/
+75,Thanh pho Dong Nai,https://tracuudiem.dongnai.edu.vn/
+79,Thanh pho Ho Chi Minh,https://diemthi.hcm.edu.vn
+80,Tinh Tay Ninh,https://tracuudiem2026.tayninh.edu.vn
+82,Tinh Dong Thap,http://tracuudiem.dongthap.edu.vn
+86,Tinh Vinh Long,http://tracuudiem.vinhlong.edu.vn/
+91,Tinh An Giang,https://tracuu.angiang.edu.vn/
+92,Thanh pho Can Tho,https://diemthithpt.ctu.edu.vn
+96,Tinh Ca Mau,http://diemthithpt.camau.edu.vn/

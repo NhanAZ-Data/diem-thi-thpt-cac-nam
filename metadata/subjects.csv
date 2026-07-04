@@ -1,0 +1,27 @@
+column,label_vi,score_family,appears_in_years,notes
+Toan,Toan,subject,2016-2026,
+NguVan,Ngu van,subject,2016-2026,
+VatLy,Vat li,subject,2016-2026,
+HoaHoc,Hoa hoc,subject,2016-2026,
+SinhHoc,Sinh hoc,subject,2016-2026,
+LichSu,Lich su,subject,2016-2026,
+DiaLy,Dia li,subject,2016-2026,
+GDCD,Giao duc cong dan,subject,2016-2025,"Only GDPT 2006 style schema."
+KinhTePhapLuat,Kinh te va phap luat,subject,2025-2026,"GDPT 2018 style schema."
+TinHoc,Tin hoc,subject,2025-2026,"GDPT 2018 style schema."
+CongNgheCongNghiep,Cong nghe cong nghiep,subject,2025-2026,"GDPT 2018 style schema."
+CongNgheNongNghiep,Cong nghe nong nghiep,subject,2025-2026,"GDPT 2018 style schema."
+NgoaiNgu,Ngoai ngu,subject,2016-2026,"Language code is in MaMonNgoaiNgu where available."
+TongDiem,Tong diem,derived_total,2016-2026,"Source-provided total; interpretation differs by year/candidate subject set."
+KhoiA,Khoi A,derived_combo,2016-2026,"Toan + VatLy + HoaHoc where available."
+KhoiA1,Khoi A1,derived_combo,2016-2026,"Toan + VatLy + NgoaiNgu where available."
+KhoiB,Khoi B,derived_combo,2016-2026,"Toan + SinhHoc + HoaHoc where available."
+KhoiC,Khoi C,derived_combo,2016-2026,"NguVan + LichSu + DiaLy where available."
+KhoiD,Khoi D,derived_combo,2016-2026,"Toan + NguVan + NgoaiNgu where available."
+KHTN,KHTN average,derived_average,2017-2024,"Natural science average in GDPT 2006 style schema."
+KHXH,KHXH average,derived_average,2017-2024,"Social science average in GDPT 2006 style schema."
+KhoiA02,Khoi A02,derived_combo,2016-2026,
+KhoiC01,Khoi C01,derived_combo,2016-2026,
+KhoiD07,Khoi D07,derived_combo,2016-2026,
+TongDiemKHTN,Tong diem KHTN,derived_total,2017-2024,
+TongDiemKHXH,Tong diem KHXH,derived_total,2017-2024,

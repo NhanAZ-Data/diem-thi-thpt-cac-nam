@@ -1,0 +1,11 @@
+*.md text eol=lf
+*.py text eol=lf
+*.csv text eol=lf
+*.txt text eol=lf
+.gitmodules text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+/data/analysis/legacy_2013_2014_features.csv filter=lfs diff=lfs merge=lfs -text
+/sources/crosscheck/anhdung98/diem_thi_2026/diem_thpt_2026.csv filter=lfs diff=lfs merge=lfs -text
+/sources/crosscheck/baochinhphu/2025/*.xlsx filter=lfs diff=lfs merge=lfs -text
