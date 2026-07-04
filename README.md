@@ -14,7 +14,7 @@ Repo này được chuẩn hóa để:
 
 Web báo cáo 101 câu hỏi được dựng trong thư mục `site/` và deploy bằng GitHub Pages:
 
-- Trang web: https://nhanaz.github.io/pho-diem-cac-nam/
+- Trang web: https://nhanaz-data.github.io/diem-thi-thpt-cac-nam/
 - Bản Markdown đầy đủ: [101 câu hỏi và câu trả lời](docs/101_CAU_HOI_VA_TRA_LOI_PHAN_TICH_DIEM_THPT.md)
 - Bản chỉ câu hỏi: [101 câu hỏi phân tích](docs/101_CAU_HOI_PHAN_TICH_DIEM_THPT.md)
 
